@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\7.Policlinica\bin\Debug\7.Policlinica.exe.config
+D:\Obuchenie\CSharpKurs\7.Policlinica\bin\Debug\7.Policlinica.exe
+D:\Obuchenie\CSharpKurs\7.Policlinica\bin\Debug\7.Policlinica.pdb
+D:\Obuchenie\CSharpKurs\7.Policlinica\obj\Debug\7.Policlinica.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\7.Policlinica\obj\Debug\7.Policlinica.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\7.Policlinica\obj\Debug\7.Policlinica.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\7.Policlinica\obj\Debug\7.Policlinica.exe
+D:\Obuchenie\CSharpKurs\7.Policlinica\obj\Debug\7.Policlinica.pdb
