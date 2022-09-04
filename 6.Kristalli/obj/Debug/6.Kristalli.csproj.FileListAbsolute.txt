@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\6.Kristalli\bin\Debug\6.Kristalli.exe.config
+D:\Obuchenie\CSharpKurs\6.Kristalli\bin\Debug\6.Kristalli.exe
+D:\Obuchenie\CSharpKurs\6.Kristalli\bin\Debug\6.Kristalli.pdb
+D:\Obuchenie\CSharpKurs\6.Kristalli\obj\Debug\6.Kristalli.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.Kristalli\obj\Debug\6.Kristalli.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\6.Kristalli\obj\Debug\6.Kristalli.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.Kristalli\obj\Debug\6.Kristalli.exe
+D:\Obuchenie\CSharpKurs\6.Kristalli\obj\Debug\6.Kristalli.pdb
