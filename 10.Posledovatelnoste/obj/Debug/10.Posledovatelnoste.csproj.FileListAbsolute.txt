@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\10.Posledovatelnoste\bin\Debug\10.Posledovatelnoste.exe.config
+D:\Obuchenie\CSharpKurs\10.Posledovatelnoste\bin\Debug\10.Posledovatelnoste.exe
+D:\Obuchenie\CSharpKurs\10.Posledovatelnoste\bin\Debug\10.Posledovatelnoste.pdb
+D:\Obuchenie\CSharpKurs\10.Posledovatelnoste\obj\Debug\10.Posledovatelnoste.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\10.Posledovatelnoste\obj\Debug\10.Posledovatelnoste.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\10.Posledovatelnoste\obj\Debug\10.Posledovatelnoste.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\10.Posledovatelnoste\obj\Debug\10.Posledovatelnoste.exe
+D:\Obuchenie\CSharpKurs\10.Posledovatelnoste\obj\Debug\10.Posledovatelnoste.pdb
