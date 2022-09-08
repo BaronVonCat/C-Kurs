@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\9.KontroleVihoda\bin\Debug\9.KontroleVihoda.exe.config
+D:\Obuchenie\CSharpKurs\9.KontroleVihoda\bin\Debug\9.KontroleVihoda.exe
+D:\Obuchenie\CSharpKurs\9.KontroleVihoda\bin\Debug\9.KontroleVihoda.pdb
+D:\Obuchenie\CSharpKurs\9.KontroleVihoda\obj\Debug\9.KontroleVihoda.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\9.KontroleVihoda\obj\Debug\9.KontroleVihoda.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\9.KontroleVihoda\obj\Debug\9.KontroleVihoda.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\9.KontroleVihoda\obj\Debug\9.KontroleVihoda.exe
+D:\Obuchenie\CSharpKurs\9.KontroleVihoda\obj\Debug\9.KontroleVihoda.pdb
