@@ -36,7 +36,6 @@ namespace _9.KontroleVihoda
                     Console.WriteLine("Вы вышли из программы");
                     break;
                 }
-
             }
         }
     }
