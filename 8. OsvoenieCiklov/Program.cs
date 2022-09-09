@@ -11,19 +11,15 @@ namespace _8.OsvoenieCiklov
         static void Main(string[] args)
         {
             string text;
-            int numberRepetitionsText;
 
             Console.Write("Введите текст: ");
             text = Console.ReadLine();
             Console.Clear();
             Console.Write("Введите количество повторений: ");
-            numberRepetitionsText = Convert.ToInt32(Console.ReadLine());
-            Console.Clear();
 
-            while (numberRepetitionsText > 0) 
+            for (int numberRepetitionsText = Convert.ToInt32(Console.ReadLine()); numberRepetitionsText > 0; numberRepetitionsText--) 
             {
                 Console.WriteLine(text);
-                numberRepetitionsText--;
             }
         }
     }
