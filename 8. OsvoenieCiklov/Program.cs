@@ -19,6 +19,7 @@ namespace _8.OsvoenieCiklov
             Console.Write("Введите количество повторений: ");
             numberRepetitionsText = Convert.ToInt32(Console.ReadLine());
             Console.Clear();
+
             while (numberRepetitionsText > 0) 
             {
                 Console.WriteLine(text);
