@@ -10,8 +10,10 @@ namespace _10.Posledovatelnoste
     {
         static void Main(string[] args)
         {
-            for(int beginningSequence = 5, endSequence = 96, increasingSequence = 7;
-                beginningSequence <= endSequence; beginningSequence += increasingSequence)
+            int endSequence = 96;
+            int increasingSequence = 7;
+
+            for (int beginningSequence = 5; beginningSequence <= endSequence; beginningSequence += increasingSequence)
             {
                 Console.WriteLine(beginningSequence);
             }
