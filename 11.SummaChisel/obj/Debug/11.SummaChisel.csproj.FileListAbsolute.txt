@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\11.SummaChisel\bin\Debug\11.SummaChisel.exe.config
+D:\Obuchenie\CSharpKurs\11.SummaChisel\bin\Debug\11.SummaChisel.exe
+D:\Obuchenie\CSharpKurs\11.SummaChisel\bin\Debug\11.SummaChisel.pdb
+D:\Obuchenie\CSharpKurs\11.SummaChisel\obj\Debug\11.SummaChisel.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\11.SummaChisel\obj\Debug\11.SummaChisel.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\11.SummaChisel\obj\Debug\11.SummaChisel.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\11.SummaChisel\obj\Debug\11.SummaChisel.exe
+D:\Obuchenie\CSharpKurs\11.SummaChisel\obj\Debug\11.SummaChisel.pdb
