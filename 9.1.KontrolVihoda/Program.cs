@@ -13,11 +13,13 @@ namespace _9._1.KontrolVihoda
         {
             string exitProgram = "exit";
             string userInput;
+
+            Console.WriteLine("Вас приветствует экран загрузки. Чтобы прервать загрузку введите " + exitProgram + ".");
             userInput = Console.ReadLine();
 
             while (userInput != exitProgram)
             {
-                Console.WriteLine("Вы сделали шаг");
+                Console.WriteLine("Загрузка...");
                 userInput = Console.ReadLine();
             }
         }
