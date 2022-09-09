@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\12.KonverterValut\obj\Debug\12.KonverterValut.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\12.KonverterValut\obj\Debug\12.KonverterValut.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\12.KonverterValut\obj\Debug\12.KonverterValut.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\12.KonverterValut\bin\Debug\12.KonverterValut.exe.config
+D:\Obuchenie\CSharpKurs\12.KonverterValut\bin\Debug\12.KonverterValut.exe
+D:\Obuchenie\CSharpKurs\12.KonverterValut\bin\Debug\12.KonverterValut.pdb
+D:\Obuchenie\CSharpKurs\12.KonverterValut\obj\Debug\12.KonverterValut.exe
+D:\Obuchenie\CSharpKurs\12.KonverterValut\obj\Debug\12.KonverterValut.pdb
