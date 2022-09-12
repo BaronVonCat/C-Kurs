@@ -35,12 +35,12 @@ namespace _12.KonverterValut
 
             while (userInput != exit)
             {
-                const string commandRubToUsd = "1";
-                const string commandRubToCny = "2";
-                const string commandUsdToRub = "3";
-                const string commandUsdToCny = "4";
-                const string commandCnyToUsd = "5";
-                const string commandCnyToRub = "6";
+                const string CommandRubToUsd = "1";
+                const string CommandRubToCny = "2";
+                const string CommandUsdToRub = "3";
+                const string CommandUsdToCny = "4";
+                const string CommandCnyToUsd = "5";
+                const string CommandCnyToRub = "6";
 
                 Console.Clear();
                 Console.WriteLine("Ваши счета:" +
@@ -49,18 +49,18 @@ namespace _12.KonverterValut
                 "\n Юани - " + cny + "" +
                 "\n");
                 Console.WriteLine("Какую валюту вы хотите обменять?" +
-                    "\n" + commandRubToUsd + ".Рубли в доллары" +
-                    "\n" + commandRubToCny + ".Рубли в юани" +
-                    "\n" + commandUsdToRub + ".Длллары в рубли" +
-                    "\n" + commandUsdToCny + ".Доллары в юани" +
-                    "\n" + commandCnyToUsd + ".Юани в доллары" +
-                    "\n" + commandCnyToRub + ".Юани в рубли" +
+                    "\n" + CommandRubToUsd + ".Рубли в доллары" +
+                    "\n" + CommandRubToCny + ".Рубли в юани" +
+                    "\n" + CommandUsdToRub + ".Длллары в рубли" +
+                    "\n" + CommandUsdToCny + ".Доллары в юани" +
+                    "\n" + CommandCnyToUsd + ".Юани в доллары" +
+                    "\n" + CommandCnyToRub + ".Юани в рубли" +
                     "\n" + exit + ".Выход");
                 userInput = Console.ReadLine();
 
                 switch (userInput)
                 {
-                    case commandRubToUsd:
+                    case CommandRubToUsd:
                         Console.WriteLine("Рубли в доллары");
                         Console.Write("Введите колличество валюты для обмена: ");
                         currencyCount = Convert.ToSingle(Console.ReadLine());
@@ -78,7 +78,7 @@ namespace _12.KonverterValut
 
                         Console.ReadKey();
                         break;
-                    case commandRubToCny:
+                    case CommandRubToCny:
                         Console.WriteLine("Рубли в юани");
                         Console.Write("Введите колличество валюты для обмена: ");
                         currencyCount = Convert.ToSingle(Console.ReadLine());
@@ -96,7 +96,7 @@ namespace _12.KonverterValut
 
                         Console.ReadKey();
                         break;
-                    case commandUsdToRub:
+                    case CommandUsdToRub:
                         Console.WriteLine("Доллары в рубли");
                         Console.Write("Введите колличество валюты для обмена: ");
                         currencyCount = Convert.ToSingle(Console.ReadLine());
@@ -114,7 +114,7 @@ namespace _12.KonverterValut
 
                         Console.ReadKey();
                         break;
-                    case commandUsdToCny:
+                    case CommandUsdToCny:
                         Console.WriteLine("Доллары в юани");
                         Console.Write("Введите колличество валюты для обмена: ");
                         currencyCount = Convert.ToSingle(Console.ReadLine());
@@ -132,7 +132,7 @@ namespace _12.KonverterValut
 
                         Console.ReadKey();
                         break;
-                    case commandCnyToUsd:
+                    case CommandCnyToUsd:
                         Console.WriteLine("Юани в доллары");
                         Console.Write("Введите колличество валюты для обмена: ");
                         currencyCount = Convert.ToSingle(Console.ReadLine());
@@ -150,7 +150,7 @@ namespace _12.KonverterValut
 
                         Console.ReadKey();
                         break;
-                    case commandCnyToRub:
+                    case CommandCnyToRub:
                         Console.WriteLine("Юани в рубли");
                         Console.Write("Введите колличество валюты для обмена: ");
                         currencyCount = Convert.ToSingle(Console.ReadLine());
