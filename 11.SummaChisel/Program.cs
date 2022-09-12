@@ -10,15 +10,19 @@ namespace _11.SummaChisel
     {
         static void Main(string[] args)
         {
-            Random rand = new Random();
-            int number = rand.Next(101);
+            Random random = new Random();
+            int randomNumberMax = 101;
+            int rundomNumber;
+            int number1 = 3;
+            int number2 = 5;
             int sum = 0;
 
-            Console.WriteLine(number);
+            rundomNumber = random.Next(randomNumberMax);
+            Console.WriteLine(rundomNumber);
 
-            for (int i = 1; i <= number; i++)
+            for (int i = 1; i <= rundomNumber; i++)
             {
-                if (i % 3 == 0 || i % 5 == 0)
+                if (i % number1 == 0 || i % number2 == 0)
                 {
                     sum += i;
                 }
