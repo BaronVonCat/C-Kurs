@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\13.KoncolnoeMenu\bin\Debug\13.KoncolnoeMenu.exe.config
+D:\Obuchenie\CSharpKurs\13.KoncolnoeMenu\bin\Debug\13.KoncolnoeMenu.exe
+D:\Obuchenie\CSharpKurs\13.KoncolnoeMenu\bin\Debug\13.KoncolnoeMenu.pdb
+D:\Obuchenie\CSharpKurs\13.KoncolnoeMenu\obj\Debug\13.KoncolnoeMenu.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\13.KoncolnoeMenu\obj\Debug\13.KoncolnoeMenu.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\13.KoncolnoeMenu\obj\Debug\13.KoncolnoeMenu.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\13.KoncolnoeMenu\obj\Debug\13.KoncolnoeMenu.exe
+D:\Obuchenie\CSharpKurs\13.KoncolnoeMenu\obj\Debug\13.KoncolnoeMenu.pdb
