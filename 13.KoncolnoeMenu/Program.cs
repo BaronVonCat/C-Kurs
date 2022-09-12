@@ -68,7 +68,9 @@ namespace _13.KoncolnoeMenu
                             Console.ReadKey();
                         }
                         else
+                        {
                             Console.WriteLine("Пароль неверен!");
+                        }
                         break;
                     case CommandSetProgramColor:
                         const string CommandBackgroundColorRed = "1";
@@ -109,7 +111,9 @@ namespace _13.KoncolnoeMenu
                             }
                         }
                         else
+                        {
                             Console.WriteLine("Некорректный запрос!");
+                        }
                         break;
                     case CommandOpenCurrencyExchange:
                         Console.Clear();
@@ -283,7 +287,9 @@ namespace _13.KoncolnoeMenu
                             Console.WriteLine("Вы вышли из обменника валют.");
                         }
                         else
+                        {
                             Console.WriteLine("Пароль неверен!");
+                        }
                         break;
                 }
             }
