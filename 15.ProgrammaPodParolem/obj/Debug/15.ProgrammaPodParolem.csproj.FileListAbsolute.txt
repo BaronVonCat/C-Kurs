@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\15.ProgrammaPodParolem\bin\Debug\15.ProgrammaPodParolem.exe.config
+D:\Obuchenie\CSharpKurs\15.ProgrammaPodParolem\bin\Debug\15.ProgrammaPodParolem.exe
+D:\Obuchenie\CSharpKurs\15.ProgrammaPodParolem\bin\Debug\15.ProgrammaPodParolem.pdb
+D:\Obuchenie\CSharpKurs\15.ProgrammaPodParolem\obj\Debug\15.ProgrammaPodParolem.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\15.ProgrammaPodParolem\obj\Debug\15.ProgrammaPodParolem.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\15.ProgrammaPodParolem\obj\Debug\15.ProgrammaPodParolem.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\15.ProgrammaPodParolem\obj\Debug\15.ProgrammaPodParolem.exe
+D:\Obuchenie\CSharpKurs\15.ProgrammaPodParolem\obj\Debug\15.ProgrammaPodParolem.pdb
