@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\17.StepenDvoyki\bin\Debug\17.StepenDvoyki.exe.config
+D:\Obuchenie\CSharpKurs\17.StepenDvoyki\bin\Debug\17.StepenDvoyki.exe
+D:\Obuchenie\CSharpKurs\17.StepenDvoyki\bin\Debug\17.StepenDvoyki.pdb
+D:\Obuchenie\CSharpKurs\17.StepenDvoyki\obj\Debug\17.StepenDvoyki.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\17.StepenDvoyki\obj\Debug\17.StepenDvoyki.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\17.StepenDvoyki\obj\Debug\17.StepenDvoyki.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\17.StepenDvoyki\obj\Debug\17.StepenDvoyki.exe
+D:\Obuchenie\CSharpKurs\17.StepenDvoyki\obj\Debug\17.StepenDvoyki.pdb
