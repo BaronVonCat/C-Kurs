@@ -21,10 +21,10 @@ namespace _14._2.VivodImeni
             Console.Write("Введите символ: ");
             userSymbol = Convert.ToChar(Console.ReadLine());
             numberSymbols = userName.Length;
-            lineSymbols = userSymbol.ToString();
+            lineSymbols = userSymbol.ToString() + userSymbol.ToString();
             lineName = userSymbol + userName + userSymbol;
 
-            for (int i = numberSymbols; i != -1; i--)
+            for (int i = numberSymbols; i != 0; i--)
             {
                 lineSymbols += userSymbol;
             }
