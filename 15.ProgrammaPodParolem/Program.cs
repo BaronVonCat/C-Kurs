@@ -11,11 +11,11 @@ namespace _15.ProgrammaPodParolem
         static void Main(string[] args)
         {
             string userPassowrd = "qwe123";
-            int tryCount = 3;
+            int totalAttempts = 3;
             string userInput;
             string massege = "ЯМАТЕ КУДАСАЙ СЕМПАЙ!!!";
 
-            for (int i = 0; tryCount != i; tryCount--)
+            for (int i = 0; i < totalAttempts; i++)
             {
                 Console.Write("Введите пароль: ");
                 userInput = Console.ReadLine();
@@ -31,8 +31,10 @@ namespace _15.ProgrammaPodParolem
                 }
                 else
                 {
-                    Console.WriteLine("Пароль неверен! Осталось попыток - "
-                        + (tryCount - 1));
+                    int remainingAttempts;
+
+                    remainingAttempts = totalAttempts - i;
+                    Console.WriteLine("Пароль неверен! Осталось попыток - " + (remainingAttempts - 1));
                 }
             }
         }
