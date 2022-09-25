@@ -33,8 +33,8 @@ namespace _15.ProgrammaPodParolem
                 {
                     int remainingAttempts;
 
-                    remainingAttempts = totalAttempts - i;
-                    Console.WriteLine("Пароль неверен! Осталось попыток - " + (remainingAttempts - 1));
+                    remainingAttempts = totalAttempts - i - 1;
+                    Console.WriteLine("Пароль неверен! Осталось попыток - " + remainingAttempts);
                 }
             }
         }
