@@ -18,7 +18,6 @@ namespace _16.KratnieChisla
             int numberMax = 28;
             int totalNumbers = 0;
 
-
             number = random.Next(numberMin, numberMax);
 
             for (int i = number; i <= naturNumberMax; i += number)
