@@ -21,9 +21,9 @@ namespace _16.KratnieChisla
 
             number = random.Next(numberMin, numberMax);
 
-            for (int sum = natureNumberMin; sum <= naturNumberMax; sum += number)
+            for (int i = number; i <= naturNumberMax; i += number)
             {
-                if (sum <= naturNumberMax)
+                if (i >= natureNumberMin)
                 {
                     totalNumbers++;
                 }
