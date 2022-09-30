@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\19.BitvaSBossom\bin\Debug\19.BitvaSBossom.exe.config
+D:\Obuchenie\CSharpKurs\19.BitvaSBossom\bin\Debug\19.BitvaSBossom.exe
+D:\Obuchenie\CSharpKurs\19.BitvaSBossom\bin\Debug\19.BitvaSBossom.pdb
+D:\Obuchenie\CSharpKurs\19.BitvaSBossom\obj\Debug\19.BitvaSBossom.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\19.BitvaSBossom\obj\Debug\19.BitvaSBossom.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\19.BitvaSBossom\obj\Debug\19.BitvaSBossom.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\19.BitvaSBossom\obj\Debug\19.BitvaSBossom.exe
+D:\Obuchenie\CSharpKurs\19.BitvaSBossom\obj\Debug\19.BitvaSBossom.pdb
