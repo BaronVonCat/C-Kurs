@@ -10,15 +10,12 @@ namespace _19.BitvaSBossom
     {
         static void Main(string[] args)
         {
+            Random random = new Random();
             int userHealth = 100;
-            const string shacklesOfDeadSpirits = "1";
             int recoilOfTheSpell = 30;
             int spellEffect = 3;
             int movesInactivity = 0;
-            const string SummonBanshee = "2";
-            bool bansheeIsSummoned = false;
-            const string howlingBanshee = "3";
-            const string charmOfTheDead = "4";
+            bool isTheBansheeSummoned = false;
             int swampTrollHealth = 1000;
             string userInput;
 
@@ -39,41 +36,44 @@ namespace _19.BitvaSBossom
             
             while (swampTrollHealth > 0 && userHealth > 0)
             {
-                bool userSpell;
-                Random randomHowlingBansheeDamage = new Random();
+                bool hasSpellUsed;
                 int howlingBansheeDamage;
                 int howlingBansheeDamageMin = 100;
                 int howlingBansheeDamageMax = 400;
-                Random randomCharmOfTheDead = new Random();
                 int charmOfTheDeadHealing;
                 int charmOfTheDeadHealingMin = 10;
                 int charmOfTheDeadHealingMax = 50;
 
-                howlingBansheeDamage = randomHowlingBansheeDamage.Next(howlingBansheeDamageMin, howlingBansheeDamageMax);
-                charmOfTheDeadHealing = randomCharmOfTheDead.Next(charmOfTheDeadHealingMin, charmOfTheDeadHealingMax);
-                userSpell = false;
+                howlingBansheeDamage = random.Next(howlingBansheeDamageMin, howlingBansheeDamageMax);
+                charmOfTheDeadHealing = random.Next(charmOfTheDeadHealingMin, charmOfTheDeadHealingMax);
+                hasSpellUsed = false;
 
-                while (userSpell != true)
+                while (hasSpellUsed == false)
                 {
+                    const string ShacklesOfDeadSpirits = "1";
+                    const string SummonBanshee = "2";
+                    const string HowlingBanshee = "3";
+                    const string CharmOfTheDead = "4";
+
                     Console.WriteLine("Ваше здоровье - " + userHealth +
                         "\nЗдоровье болтного тролля - " + swampTrollHealth);
                     Console.WriteLine("\nВаши заклинания: " +
-                        "\n " + shacklesOfDeadSpirits + ".Оковы мёртвых духов - " +
+                        "\n " + ShacklesOfDeadSpirits + ".Оковы мёртвых духов - " +
                         "обездвиживает противника на " + spellEffect + " хода," +
                         " за счёт " + recoilOfTheSpell + " здоровья пользователя." +
                         "\n " + SummonBanshee + ".Призыв банши - " +
                         "призывает астрального духа для атаки. Невозможно ввыполнить если вас атакуют." +
-                        "\n " + howlingBanshee + ".Крик банши - " +
+                        "\n " + HowlingBanshee + ".Крик банши - " +
                         "наносит от " + howlingBansheeDamageMin + " до " +
                         howlingBansheeDamageMax + " урона противнику." +
-                        "\n " + charmOfTheDead + ".Очарование мёртвых - " +
+                        "\n " + CharmOfTheDead + ".Очарование мёртвых - " +
                         "восстанавливет от " + charmOfTheDeadHealingMin + " до " + charmOfTheDeadHealingMax + " здоровья, если есть банши.\n");
                     userInput = Console.ReadLine();
                     Console.Clear();
 
                     switch (userInput)
                     {
-                        case shacklesOfDeadSpirits:
+                        case ShacklesOfDeadSpirits:
                             if (userHealth <= recoilOfTheSpell)
                             {
                                 Console.WriteLine("Ваши жизненные силы на исходе! " +
@@ -84,17 +84,17 @@ namespace _19.BitvaSBossom
                                 userHealth -= recoilOfTheSpell;
                                 movesInactivity = spellEffect;
                                 Console.WriteLine("Противник обездвижен!");
-                                userSpell = true;
+                                hasSpellUsed = true;
                             }
                             break;
                         case SummonBanshee:
-                            if (bansheeIsSummoned == false)
+                            if (isTheBansheeSummoned == false)
                             {
                                 if (movesInactivity > 0)
                                 {
-                                    bansheeIsSummoned = true;
+                                    isTheBansheeSummoned = true;
                                     Console.WriteLine("Вы призвали духа - Банши.");
-                                    userSpell = true;
+                                    hasSpellUsed = true;
                                 }
                                 else
                                 {
@@ -108,29 +108,27 @@ namespace _19.BitvaSBossom
                                 Console.WriteLine("Вы уже призвали банши, используйте другое заклинание.");
                             }
                             break;
-                        case howlingBanshee:
-                            if (bansheeIsSummoned == true)
+                        case HowlingBanshee:
+                            if (isTheBansheeSummoned == true)
                             {
-                                Random random = new Random();
-
                                 swampTrollHealth -= howlingBansheeDamage;
                                 Console.WriteLine("Вопль банши заставляет тролля терпеть урон в размере - "
                                     + howlingBansheeDamage);
-                                userSpell = true;
+                                hasSpellUsed = true;
                             }
                             else
                             {
                                 Console.WriteLine("Для этого заклинания требуется призвать банши.");
                             }
                             break;
-                        case charmOfTheDead:
+                        case CharmOfTheDead:
 
-                            if (bansheeIsSummoned == true) 
+                            if (isTheBansheeSummoned == true) 
                             {
                                 userHealth += charmOfTheDeadHealing;
                                 Console.WriteLine("Банши применила на вас очарование мёртвых, вы чувствуете себя лучше." +
                                     "\nВосстановленное здоровье - " + charmOfTheDeadHealing);
-                                userSpell = true;
+                                hasSpellUsed = true;
                             }
                             else
                             {
@@ -158,7 +156,6 @@ namespace _19.BitvaSBossom
                 }
                 else
                 {
-                    Random random = new Random();
                     int swampTrollDamage;
                     int swampTrollDamageMin = 20;
                     int swampTrollDamageMax = 80;
@@ -170,7 +167,6 @@ namespace _19.BitvaSBossom
 
                 if (swampTrollHealth <= 500)
                 {
-                    Random random = new Random();
                     int swampTrollHealthRegeneration;
                     int healthRegenerationMin = 50;
                     int healthRegenerationMax = 150;
