@@ -17,6 +17,7 @@ namespace _19.BitvaSBossom
             int movesInactivity = 0;
             bool isTheBansheeSummoned = false;
             int swampTrollHealth = 1000;
+            int healthThresholdForRegeneration = 500;
             string userInput;
 
             Console.WriteLine("Вы, тёмный призыватель душ, на службе у местного властителя, " +
@@ -165,7 +166,7 @@ namespace _19.BitvaSBossom
                     Console.WriteLine("Тролль наносит вам " + swampTrollDamage + " урона.");
                 }
 
-                if (swampTrollHealth <= 500)
+                if (swampTrollHealth <= healthThresholdForRegeneration)
                 {
                     int swampTrollHealthRegeneration;
                     int healthRegenerationMin = 50;
@@ -184,13 +185,13 @@ namespace _19.BitvaSBossom
             {
                 Console.WriteLine("Вам удалось убить тролля, хоть и ценой своей жизни.");
             }
-            else if (swampTrollHealth <= 0)
-            {
-                Console.WriteLine("Вы убили болотного тролля! Владыка будет доволен вами.");
-            }
             else if (userHealth <= 0)
             {
                 Console.WriteLine("Вы погибли жалкой смертью от рук болотного тролля.");
+            }
+            else
+            {
+                Console.WriteLine("Вы убили болотного тролля! Владыка будет доволен вами.");
             }
         }
     }
