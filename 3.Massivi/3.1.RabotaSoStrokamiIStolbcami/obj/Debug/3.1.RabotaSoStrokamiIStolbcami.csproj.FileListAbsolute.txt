@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\3.Massivi\3.1.RabotaSoStrokamiIStolbcami\bin\Debug\3.1.RabotaSoStrokamiIStolbcami.exe.config
+D:\Obuchenie\CSharpKurs\3.Massivi\3.1.RabotaSoStrokamiIStolbcami\bin\Debug\3.1.RabotaSoStrokamiIStolbcami.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.1.RabotaSoStrokamiIStolbcami\bin\Debug\3.1.RabotaSoStrokamiIStolbcami.pdb
+D:\Obuchenie\CSharpKurs\3.Massivi\3.1.RabotaSoStrokamiIStolbcami\obj\Debug\3.1.RabotaSoStrokamiIStolbcami.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.1.RabotaSoStrokamiIStolbcami\obj\Debug\3.1.RabotaSoStrokamiIStolbcami.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.1.RabotaSoStrokamiIStolbcami\obj\Debug\3.1.RabotaSoStrokamiIStolbcami.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.1.RabotaSoStrokamiIStolbcami\obj\Debug\3.1.RabotaSoStrokamiIStolbcami.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.1.RabotaSoStrokamiIStolbcami\obj\Debug\3.1.RabotaSoStrokamiIStolbcami.pdb
