@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\3.Massivi\3.2.NaibolshiyElement\bin\Debug\3.2.NaibolshiyElement.exe.config
+D:\Obuchenie\CSharpKurs\3.Massivi\3.2.NaibolshiyElement\bin\Debug\3.2.NaibolshiyElement.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.2.NaibolshiyElement\bin\Debug\3.2.NaibolshiyElement.pdb
+D:\Obuchenie\CSharpKurs\3.Massivi\3.2.NaibolshiyElement\obj\Debug\3.2.NaibolshiyElement.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.2.NaibolshiyElement\obj\Debug\3.2.NaibolshiyElement.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.2.NaibolshiyElement\obj\Debug\3.2.NaibolshiyElement.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.2.NaibolshiyElement\obj\Debug\3.2.NaibolshiyElement.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.2.NaibolshiyElement\obj\Debug\3.2.NaibolshiyElement.pdb
