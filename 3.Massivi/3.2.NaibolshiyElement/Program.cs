@@ -16,6 +16,7 @@ namespace _3._2.NaibolshiyElement
             int numbersMax = 1000;
             int numbersMin = 1;
             int largestNumber = 0;
+            int largestNumberDesignations = 0;
 
             for (int i = 0; i < numbers.GetLength(0); i++ )
             {
@@ -44,7 +45,7 @@ namespace _3._2.NaibolshiyElement
                 {
                     if (numbers[i, j] == largestNumber)
                     {
-                        numbers[i, j] = 0;
+                        numbers[i, j] = largestNumberDesignations;
                     }
                 }
             }
