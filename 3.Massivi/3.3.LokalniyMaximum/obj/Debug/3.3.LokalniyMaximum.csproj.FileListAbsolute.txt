@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\3.Massivi\3.3.LokalniyMaximum\bin\Debug\3.3.LokalniyMaximum.exe.config
+D:\Obuchenie\CSharpKurs\3.Massivi\3.3.LokalniyMaximum\bin\Debug\3.3.LokalniyMaximum.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.3.LokalniyMaximum\bin\Debug\3.3.LokalniyMaximum.pdb
+D:\Obuchenie\CSharpKurs\3.Massivi\3.3.LokalniyMaximum\obj\Debug\3.3.LokalniyMaximum.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.3.LokalniyMaximum\obj\Debug\3.3.LokalniyMaximum.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.3.LokalniyMaximum\obj\Debug\3.3.LokalniyMaximum.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.3.LokalniyMaximum\obj\Debug\3.3.LokalniyMaximum.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.3.LokalniyMaximum\obj\Debug\3.3.LokalniyMaximum.pdb
