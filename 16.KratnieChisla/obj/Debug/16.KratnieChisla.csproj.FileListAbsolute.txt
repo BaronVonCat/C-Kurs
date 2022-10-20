@@ -1,8 +1,0 @@
-D:\Obuchenie\CSharpKurs\16.KratnieChisla\obj\Debug\16.KratnieChisla.csproj.AssemblyReference.cache
-D:\Obuchenie\CSharpKurs\16.KratnieChisla\obj\Debug\16.KratnieChisla.csproj.SuggestedBindingRedirects.cache
-D:\Obuchenie\CSharpKurs\16.KratnieChisla\obj\Debug\16.KratnieChisla.csproj.CoreCompileInputs.cache
-D:\Obuchenie\CSharpKurs\16.KratnieChisla\bin\Debug\16.KratnieChisla.exe.config
-D:\Obuchenie\CSharpKurs\16.KratnieChisla\bin\Debug\16.KratnieChisla.exe
-D:\Obuchenie\CSharpKurs\16.KratnieChisla\bin\Debug\16.KratnieChisla.pdb
-D:\Obuchenie\CSharpKurs\16.KratnieChisla\obj\Debug\16.KratnieChisla.exe
-D:\Obuchenie\CSharpKurs\16.KratnieChisla\obj\Debug\16.KratnieChisla.pdb
