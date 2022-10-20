@@ -1,8 +1,0 @@
-D:\Obuchenie\CSharpKurs\14.2.VivodImeni\bin\Debug\14.2.VivodImeni.exe.config
-D:\Obuchenie\CSharpKurs\14.2.VivodImeni\bin\Debug\14.2.VivodImeni.exe
-D:\Obuchenie\CSharpKurs\14.2.VivodImeni\bin\Debug\14.2.VivodImeni.pdb
-D:\Obuchenie\CSharpKurs\14.2.VivodImeni\obj\Debug\14.2.VivodImeni.csproj.AssemblyReference.cache
-D:\Obuchenie\CSharpKurs\14.2.VivodImeni\obj\Debug\14.2.VivodImeni.csproj.SuggestedBindingRedirects.cache
-D:\Obuchenie\CSharpKurs\14.2.VivodImeni\obj\Debug\14.2.VivodImeni.csproj.CoreCompileInputs.cache
-D:\Obuchenie\CSharpKurs\14.2.VivodImeni\obj\Debug\14.2.VivodImeni.exe
-D:\Obuchenie\CSharpKurs\14.2.VivodImeni\obj\Debug\14.2.VivodImeni.pdb
