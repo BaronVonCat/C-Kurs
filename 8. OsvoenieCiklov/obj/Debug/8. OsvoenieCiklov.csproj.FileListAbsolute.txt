@@ -1,8 +1,0 @@
-D:\Obuchenie\CSharpKurs\8. OsvoenieCiklov\bin\Debug\_8.OsvoenieCiklov.exe.config
-D:\Obuchenie\CSharpKurs\8. OsvoenieCiklov\bin\Debug\_8.OsvoenieCiklov.exe
-D:\Obuchenie\CSharpKurs\8. OsvoenieCiklov\bin\Debug\_8.OsvoenieCiklov.pdb
-D:\Obuchenie\CSharpKurs\8. OsvoenieCiklov\obj\Debug\8. OsvoenieCiklov.csproj.AssemblyReference.cache
-D:\Obuchenie\CSharpKurs\8. OsvoenieCiklov\obj\Debug\8. OsvoenieCiklov.csproj.SuggestedBindingRedirects.cache
-D:\Obuchenie\CSharpKurs\8. OsvoenieCiklov\obj\Debug\8. OsvoenieCiklov.csproj.CoreCompileInputs.cache
-D:\Obuchenie\CSharpKurs\8. OsvoenieCiklov\obj\Debug\_8.OsvoenieCiklov.exe
-D:\Obuchenie\CSharpKurs\8. OsvoenieCiklov\obj\Debug\_8.OsvoenieCiklov.pdb
