@@ -13,8 +13,8 @@ namespace _3._2.NaibolshiyElement
         {
             Random random =new Random();
             int[,] numbers = new int[10, 10];
-            int numbersMax = 1000;
-            int numbersMin = 1;
+            int numberMax = 1000;
+            int numberMin = 1;
             int largestNumber = 0;
             int largestNumberDesignations = 0;
 
@@ -22,18 +22,18 @@ namespace _3._2.NaibolshiyElement
             {
                 for (int j = 0; j < numbers.GetLength(1); j++)
                 {
-                    numbers[i, j] = random.Next(numbersMin, numbersMax);
+                    numbers[i, j] = random.Next(numberMin, numberMax);
                     Console.Write(numbers[i, j] + "  ");
                 }
 
                 Console.WriteLine();
             }
 
-            foreach (int i in numbers)
+            foreach (int number in numbers)
             {
-                if (i > largestNumber)
+                if (number > largestNumber)
                 {
-                    largestNumber = i;
+                    largestNumber = number;
                 }
             }
             
