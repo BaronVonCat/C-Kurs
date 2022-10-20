@@ -1,8 +1,0 @@
-D:\Obuchenie\CSharpKurs\18.SkobochnoeVirozjenie\bin\Debug\18.SkobochnoeVirozjenie.exe.config
-D:\Obuchenie\CSharpKurs\18.SkobochnoeVirozjenie\bin\Debug\18.SkobochnoeVirozjenie.exe
-D:\Obuchenie\CSharpKurs\18.SkobochnoeVirozjenie\bin\Debug\18.SkobochnoeVirozjenie.pdb
-D:\Obuchenie\CSharpKurs\18.SkobochnoeVirozjenie\obj\Debug\18.SkobochnoeVirozjenie.csproj.AssemblyReference.cache
-D:\Obuchenie\CSharpKurs\18.SkobochnoeVirozjenie\obj\Debug\18.SkobochnoeVirozjenie.csproj.SuggestedBindingRedirects.cache
-D:\Obuchenie\CSharpKurs\18.SkobochnoeVirozjenie\obj\Debug\18.SkobochnoeVirozjenie.csproj.CoreCompileInputs.cache
-D:\Obuchenie\CSharpKurs\18.SkobochnoeVirozjenie\obj\Debug\18.SkobochnoeVirozjenie.exe
-D:\Obuchenie\CSharpKurs\18.SkobochnoeVirozjenie\obj\Debug\18.SkobochnoeVirozjenie.pdb
