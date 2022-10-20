@@ -14,12 +14,10 @@ namespace _3._4.DinamicheskiyMassiv
             string userInput;
             string commandExit = "exit";
             string commandSum = "sum";
-            bool exitTheProgram = false;
+            bool isExitProgram = false;
 
-            while (exitTheProgram != true)
+            while (isExitProgram != true)
             {
-                int[] tempUserNumbers = new int[userNumbers.Length + 1];
-
                 Console.Write("Ранее набранные числа: ");
                 foreach (int userNumber in userNumbers)
                 {
@@ -31,7 +29,7 @@ namespace _3._4.DinamicheskiyMassiv
 
                 if (userInput == commandExit)
                 {
-                    exitTheProgram = true;
+                    isExitProgram = true;
                 }
                 else if (userInput == commandSum)
                 {
@@ -43,11 +41,12 @@ namespace _3._4.DinamicheskiyMassiv
                     }
 
                     Console.WriteLine("Сумма всех ранее перечисленных чисел: " + sum);
-                    userNumbers = new int[0];
                     Console.ReadKey();
                 }
                 else
                 {
+                    int[] tempUserNumbers = new int[userNumbers.Length + 1];
+
                     for (int i = 0; i < userNumbers.Length; i++)
                     {
                         tempUserNumbers[i] = userNumbers[i];
