@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.6.SortirovkaChisel", "3.6.SortirovkaChisel.csproj", "{6150C858-32AA-41DA-84C5-798150F21E0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6150C858-32AA-41DA-84C5-798150F21E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6150C858-32AA-41DA-84C5-798150F21E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6150C858-32AA-41DA-84C5-798150F21E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6150C858-32AA-41DA-84C5-798150F21E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE9646AD-6B0E-4125-B255-4372D89B2DE3}
+	EndGlobalSection
+EndGlobal

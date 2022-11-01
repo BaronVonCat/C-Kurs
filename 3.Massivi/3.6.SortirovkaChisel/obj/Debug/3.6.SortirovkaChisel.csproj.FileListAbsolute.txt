@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\3.Massivi\3.6.SortirovkaChisel\bin\Debug\3.6.SortirovkaChisel.exe.config
+D:\Obuchenie\CSharpKurs\3.Massivi\3.6.SortirovkaChisel\bin\Debug\3.6.SortirovkaChisel.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.6.SortirovkaChisel\bin\Debug\3.6.SortirovkaChisel.pdb
+D:\Obuchenie\CSharpKurs\3.Massivi\3.6.SortirovkaChisel\obj\Debug\3.6.SortirovkaChisel.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.6.SortirovkaChisel\obj\Debug\3.6.SortirovkaChisel.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.6.SortirovkaChisel\obj\Debug\3.6.SortirovkaChisel.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.6.SortirovkaChisel\obj\Debug\3.6.SortirovkaChisel.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.6.SortirovkaChisel\obj\Debug\3.6.SortirovkaChisel.pdb
