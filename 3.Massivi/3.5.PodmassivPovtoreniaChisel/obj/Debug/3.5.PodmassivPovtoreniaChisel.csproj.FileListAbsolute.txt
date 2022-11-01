@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\3.Massivi\3.5.PodmassivPovtoreniaChisel\bin\Debug\3.5.PodmassivPovtoreniaChisel.exe.config
+D:\Obuchenie\CSharpKurs\3.Massivi\3.5.PodmassivPovtoreniaChisel\bin\Debug\3.5.PodmassivPovtoreniaChisel.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.5.PodmassivPovtoreniaChisel\bin\Debug\3.5.PodmassivPovtoreniaChisel.pdb
+D:\Obuchenie\CSharpKurs\3.Massivi\3.5.PodmassivPovtoreniaChisel\obj\Debug\3.5.PodmassivPovtoreniaChisel.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.5.PodmassivPovtoreniaChisel\obj\Debug\3.5.PodmassivPovtoreniaChisel.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.5.PodmassivPovtoreniaChisel\obj\Debug\3.5.PodmassivPovtoreniaChisel.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.5.PodmassivPovtoreniaChisel\obj\Debug\3.5.PodmassivPovtoreniaChisel.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.5.PodmassivPovtoreniaChisel\obj\Debug\3.5.PodmassivPovtoreniaChisel.pdb
