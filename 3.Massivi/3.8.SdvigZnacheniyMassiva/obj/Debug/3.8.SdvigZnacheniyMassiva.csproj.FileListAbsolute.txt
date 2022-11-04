@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\3.Massivi\3.8.SdvigZnacheniyMassiva\bin\Debug\3.8.SdvigZnacheniyMassiva.exe.config
+D:\Obuchenie\CSharpKurs\3.Massivi\3.8.SdvigZnacheniyMassiva\bin\Debug\3.8.SdvigZnacheniyMassiva.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.8.SdvigZnacheniyMassiva\bin\Debug\3.8.SdvigZnacheniyMassiva.pdb
+D:\Obuchenie\CSharpKurs\3.Massivi\3.8.SdvigZnacheniyMassiva\obj\Debug\3.8.SdvigZnacheniyMassiva.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.8.SdvigZnacheniyMassiva\obj\Debug\3.8.SdvigZnacheniyMassiva.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.8.SdvigZnacheniyMassiva\obj\Debug\3.8.SdvigZnacheniyMassiva.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.8.SdvigZnacheniyMassiva\obj\Debug\3.8.SdvigZnacheniyMassiva.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.8.SdvigZnacheniyMassiva\obj\Debug\3.8.SdvigZnacheniyMassiva.pdb
