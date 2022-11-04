@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\3.Massivi\3.7.SPLIT\bin\Debug\3.7.SPLIT.exe.config
+D:\Obuchenie\CSharpKurs\3.Massivi\3.7.SPLIT\bin\Debug\3.7.SPLIT.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.7.SPLIT\bin\Debug\3.7.SPLIT.pdb
+D:\Obuchenie\CSharpKurs\3.Massivi\3.7.SPLIT\obj\Debug\3.7.SPLIT.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.7.SPLIT\obj\Debug\3.7.SPLIT.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.7.SPLIT\obj\Debug\3.7.SPLIT.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\3.Massivi\3.7.SPLIT\obj\Debug\3.7.SPLIT.exe
+D:\Obuchenie\CSharpKurs\3.Massivi\3.7.SPLIT\obj\Debug\3.7.SPLIT.pdb
