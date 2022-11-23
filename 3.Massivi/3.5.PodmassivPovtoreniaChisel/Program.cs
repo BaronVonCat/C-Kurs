@@ -11,20 +11,19 @@ namespace _3._5.PodmassivPovtoreniaChisel
         static void Main(string[] args)
         {
             Random random = new Random();
-            int[] numbers = new int[30];
+            int numberOfNumbers = 30;
+            int[] numbers = new int[numberOfNumbers];
             int numberMin = 0;
-            int numberMax = 2;
+            int numberMax = 3;
             int numericalSequence = 1;
             int numericalSequenceMax = 1;
-            int maximumConsecutiveNumber = 0;
+            int[] maximumConsecutiveNumbers = new int[0];
 
             for (int i = 0; i < numbers.Length; i++)
             {
                 numbers[i] = random.Next(numberMin, numberMax);
                 Console.Write(numbers[i] + " ");
             }
-
-            maximumConsecutiveNumber = numbers[0];
 
             for (int i = 1; i < numbers.Length; i++)
             {
@@ -35,7 +34,6 @@ namespace _3._5.PodmassivPovtoreniaChisel
                     if (numericalSequence > numericalSequenceMax)
                     {
                         numericalSequenceMax = numericalSequence;
-                        maximumConsecutiveNumber = numbers[i];
                     }
                 }
                 else
@@ -44,9 +42,58 @@ namespace _3._5.PodmassivPovtoreniaChisel
                 }
             }
 
-            Console.WriteLine("\nЧисло с максимальной последовательностю чисел - "
-                + maximumConsecutiveNumber +
-                "\nМаксимальная последовательность - " +
+            numericalSequence = 1;
+
+            for (int i = 1; i < numbers.Length; i++)
+            {
+                if (numbers[i] == numbers[i - 1])
+                {
+                    numericalSequence++;
+
+                    if (numericalSequence == numericalSequenceMax)
+                    {
+                        bool isTheMaximumConsecutiveNumberRepeated = false;
+
+                        for (int j = 0; j < maximumConsecutiveNumbers.Length; j++)
+                        {
+                            if (maximumConsecutiveNumbers[j] == numbers[i])
+                            {
+                                isTheMaximumConsecutiveNumberRepeated = true;
+                            }
+                        }
+
+                        if (isTheMaximumConsecutiveNumberRepeated == false)
+                        {
+                            int[] tempMaximumConsecutiveNumbers =
+                            new int[maximumConsecutiveNumbers.Length + 1];
+
+                            for (int l = 0; l < maximumConsecutiveNumbers.Length; l++)
+                            {
+                                tempMaximumConsecutiveNumbers[l] =
+                                    maximumConsecutiveNumbers[l];
+                            }
+
+                            tempMaximumConsecutiveNumbers[tempMaximumConsecutiveNumbers.Length - 1] =
+                                numbers[i];
+                            maximumConsecutiveNumbers = tempMaximumConsecutiveNumbers;
+                            numericalSequence = 0;
+                        }
+                    }
+                }
+                else
+                {
+                    numericalSequence = 1;
+                }
+            }
+
+            Console.Write("\nЧисла с максимальной последовательностю чисел - ");
+
+            for (int i = 0; i < maximumConsecutiveNumbers.Length; i++)
+            {
+                Console.Write(maximumConsecutiveNumbers[i] + " ");
+            }
+
+            Console.WriteLine("\nМаксимальная последовательность - " +
                 numericalSequenceMax);
         }
     }
