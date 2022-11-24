@@ -10,8 +10,8 @@ namespace _3._8.SdvigZnacheniyMassiva
     {
         static void Main(string[] args)
         {
-            int numberOfNubers = 10;
-            int[] numbers = new int[numberOfNubers];
+            int numberOfNumbers = 10;
+            int[] numbers = new int[numberOfNumbers];
             int customShiftValue;
 
             for (int i = 0; i < numbers.Length; i++)
