@@ -10,7 +10,8 @@ namespace _3._8.SdvigZnacheniyMassiva
     {
         static void Main(string[] args)
         {
-            int[] numbers = new int[10];
+            int numberOfNubers = 10;
+            int[] numbers = new int[numberOfNubers];
             int customShiftValue;
 
             for (int i = 0; i < numbers.Length; i++)
@@ -32,7 +33,7 @@ namespace _3._8.SdvigZnacheniyMassiva
                     numbers[j] = numbers[j + 1];
                 }
 
-                numbers[numbers.Length - 1] = numbers[0];
+                numbers[numbers.Length - 1] = shiftedNumber;
             }
 
             foreach (int number in numbers)
