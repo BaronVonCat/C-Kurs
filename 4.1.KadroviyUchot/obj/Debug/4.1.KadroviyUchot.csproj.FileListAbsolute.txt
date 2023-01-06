@@ -1,8 +1,0 @@
-D:\Obuchenie\CSharpKurs\4.Funkciy\4.1.KadroviyUchot\bin\Debug\4.1.KadroviyUchot.exe.config
-D:\Obuchenie\CSharpKurs\4.Funkciy\4.1.KadroviyUchot\bin\Debug\4.1.KadroviyUchot.exe
-D:\Obuchenie\CSharpKurs\4.Funkciy\4.1.KadroviyUchot\bin\Debug\4.1.KadroviyUchot.pdb
-D:\Obuchenie\CSharpKurs\4.Funkciy\4.1.KadroviyUchot\obj\Debug\4.1.KadroviyUchot.csproj.AssemblyReference.cache
-D:\Obuchenie\CSharpKurs\4.Funkciy\4.1.KadroviyUchot\obj\Debug\4.1.KadroviyUchot.csproj.SuggestedBindingRedirects.cache
-D:\Obuchenie\CSharpKurs\4.Funkciy\4.1.KadroviyUchot\obj\Debug\4.1.KadroviyUchot.csproj.CoreCompileInputs.cache
-D:\Obuchenie\CSharpKurs\4.Funkciy\4.1.KadroviyUchot\obj\Debug\4.1.KadroviyUchot.exe
-D:\Obuchenie\CSharpKurs\4.Funkciy\4.1.KadroviyUchot\obj\Debug\4.1.KadroviyUchot.pdb
