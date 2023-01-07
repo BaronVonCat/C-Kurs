@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.2.OtrisovkaBara\bin\Debug\4.2.OtrisovkaBara.exe.config
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.2.OtrisovkaBara\bin\Debug\4.2.OtrisovkaBara.exe
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.2.OtrisovkaBara\bin\Debug\4.2.OtrisovkaBara.pdb
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.2.OtrisovkaBara\obj\Debug\4.2.OtrisovkaBara.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.2.OtrisovkaBara\obj\Debug\4.2.OtrisovkaBara.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.2.OtrisovkaBara\obj\Debug\4.2.OtrisovkaBara.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.2.OtrisovkaBara\obj\Debug\4.2.OtrisovkaBara.exe
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.2.OtrisovkaBara\obj\Debug\4.2.OtrisovkaBara.pdb
