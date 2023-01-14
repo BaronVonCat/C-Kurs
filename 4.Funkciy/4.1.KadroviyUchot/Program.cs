@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.IO;
+using System.Diagnostics;
 
 namespace _4._1.KadroviyUchot
 {
@@ -12,6 +13,12 @@ namespace _4._1.KadroviyUchot
     {
         static void Main(string[] args)
         {
+            const string CommandAddDossier = "1";
+            const string CommandOutputAllDossiers = "2";
+            const string CommandDeleteDossier = "3";
+            const string CommandSearchByLastName = "4";
+            const string CommandExit = "0";
+
             Random random = new Random();
             int dossiersNumbersMin = 0;
             int dossiersNumbersMax = 10000;
@@ -20,14 +27,9 @@ namespace _4._1.KadroviyUchot
             string nameFileSurnames = "Surnames.txt";
             string[] dossiersWorkingPositions = new string[dossiersNumbers];
             string nameFileWorkingPositions = "WorkingPositions.txt";
-            bool userExit = false;
+            bool isCommandExit = false;
             string manual = "Введите номер запроса: ";
             string userInput;
-            const string CommandAddDossier = "1";
-            const string CommandOutputAllDossiers = "2";
-            const string CommandDeleteDossier = "3";
-            const string CommandSearchByLastName = "4";
-            const string CommandExit = "0";
             string[] availableСommands =
                 {$"{CommandAddDossier}. Добавить досье",
                     $"{CommandOutputAllDossiers}. Вывести все досье",
@@ -39,7 +41,7 @@ namespace _4._1.KadroviyUchot
             DossierInitializing(dossiersWorkingPositions, nameFileWorkingPositions, random);
             OutputWelcomeBanner(manual, availableСommands);
 
-            while (userExit == false)
+            while (isCommandExit == false)
             {
                 MovingCursor(manual);
                 userInput = Console.ReadLine();
@@ -49,17 +51,21 @@ namespace _4._1.KadroviyUchot
                     case CommandAddDossier:
                         AddDossier(ref dossiersSurnames, ref dossiersWorkingPositions, ref dossiersNumbers);
                         break;
+
                     case CommandOutputAllDossiers:
-                        OutputDossierAll(dossiersSurnames, dossiersWorkingPositions, dossiersNumbers);
+                        OutputDossierAll(dossiersSurnames, dossiersWorkingPositions);
                         break;
+
                     case CommandDeleteDossier:
                         DeletingDossier(ref dossiersSurnames, ref dossiersWorkingPositions, ref dossiersNumbers);
                         break;
+
                     case CommandSearchByLastName:
                         SearchByLastName(dossiersSurnames, dossiersWorkingPositions, dossiersNumbers);
                         break;
+
                     case CommandExit:
-                        Exit(ref userExit);
+                        Exit(ref isCommandExit);
                         break;
                 }
 
@@ -73,20 +79,22 @@ namespace _4._1.KadroviyUchot
                 {
                     OutputProgramResponse();
                 }
-                else if (userExit == true)
+                else if (isCommandExit == true)
                 {
                     string valueProgramResponse = "запрос о выходе одобрен";
                     OutputProgramResponse(valueProgramResponse);
+                    Console.ReadKey();
                 }
             }
         }
 
         static void AddDossier(ref string[] dossiersSurnames, ref string[] dossiersWorkingPositions, ref int dossiersNumbers)
         {
-            string manual = "Введите номер комманды: ";
-            string userInput;
             const string CommandReturnsToMenu = "0";
             const string CommandAddDossier = "1";
+
+            string manual = "Введите номер комманды: ";
+            string userInput;
             bool isCommandReturnsToMenu = false;
             string[] availableСommands = 
                 { $"{CommandAddDossier}. Добавить досье",
@@ -103,31 +111,12 @@ namespace _4._1.KadroviyUchot
 
                 if (userInput == CommandAddDossier)
                 {
-                    string[] nextDossiersSurnames = new string[dossiersNumbers + 1];
-                    string[] nextDossiersWorkingPositions = new string[dossiersNumbers + 1];
                     string manualNewDossierUsername = "Введите фамилию гражданина: ";
                     string manualNewDossierWorkongPosition = "Введите должность гражданина: ";
-                    string newDossierUsername;
-                    string newDossierWorkongPosition;
                     string programResponse = "-ДОБАВЛЕННОЕ ДОСЬЕ-";
 
-                    OutputWelcomeBanner(manualNewDossierUsername);
-                    MovingCursor(manualNewDossierUsername);
-                    newDossierUsername = Console.ReadLine();
-                    OutputWelcomeBanner(manualNewDossierWorkongPosition);
-                    MovingCursor(manualNewDossierWorkongPosition);
-                    newDossierWorkongPosition = Console.ReadLine();
-
-                    for (int i = 0; i < dossiersNumbers; i++)
-                    {
-                        nextDossiersSurnames[i] = dossiersSurnames[i];
-                        nextDossiersWorkingPositions[i] = dossiersWorkingPositions[i];
-                    }
-
-                    nextDossiersSurnames[nextDossiersSurnames.Length - 1] = newDossierUsername;
-                    nextDossiersWorkingPositions[nextDossiersWorkingPositions.Length - 1] = newDossierWorkongPosition;
-                    dossiersSurnames = nextDossiersSurnames;
-                    dossiersWorkingPositions = nextDossiersWorkingPositions;
+                    ProcessAddingDossier(ref dossiersSurnames, manualNewDossierUsername, dossiersNumbers);
+                    ProcessAddingDossier(ref dossiersWorkingPositions, manualNewDossierWorkongPosition, dossiersNumbers);
                     dossiersNumbers++;
                     OutputWelcomeBanner(manual, availableСommands, programResponse);
                     Console.WriteLine($"{dossiersNumbers}. {dossiersSurnames[dossiersNumbers - 1]} - " +
@@ -144,7 +133,25 @@ namespace _4._1.KadroviyUchot
             }
         }
 
-        static void OutputDossierAll(string[] surnames, string[] workingPositions, int dossiersNumbers)
+        static void ProcessAddingDossier(ref string[] dossiers, string manualNewDossier, int dossiersNumbers)
+        {
+            string[] nextDossiers = new string[dossiersNumbers + 1];
+            string newDossier;
+
+            OutputWelcomeBanner(manualNewDossier);
+            MovingCursor(manualNewDossier);
+            newDossier = Console.ReadLine();
+
+            for (int i = 0; i < dossiersNumbers; i++)
+            {
+                nextDossiers[i] = dossiers[i];
+            }
+
+            nextDossiers[nextDossiers.Length - 1] = newDossier;
+            dossiers = nextDossiers;
+        }
+
+        static void OutputDossierAll(string[] surnames, string[] workingPositions)
         {
             int sequenceNumber;
             string manual = "Нажмите 'ВВОД', чтобы вернутся в меню: ";
@@ -153,7 +160,7 @@ namespace _4._1.KadroviyUchot
 
             OutputWelcomeBanner(manual, availableСommands, programResponse);
 
-            for (int i = 0; i < dossiersNumbers; i++)
+            for (int i = 0; i < surnames.Length; i++)
             {
                 sequenceNumber = i + 1;
                 Console.WriteLine($"{sequenceNumber}. {surnames[i]} - {workingPositions[i]}");
@@ -165,14 +172,15 @@ namespace _4._1.KadroviyUchot
 
         static void DeletingDossier(ref string[] surnames, ref string[] workingPosition, ref int dossiersNumbers)
         {
-            bool returnsToMenu = false;
-            string manual = "Введите номер досье подлежащее утилизации: ";
             const string CommandReturnsToMenu = "0";
+
+            bool isCommandReturnsToMenu = false;
+            string manual = "Введите номер досье подлежащее утилизации: ";
             string[] availableСommands = { $"{CommandReturnsToMenu}. Вернуться в меню" };
 
             OutputWelcomeBanner(manual, availableСommands);
 
-            while (returnsToMenu == false)
+            while (isCommandReturnsToMenu == false)
             {
                 string userInput;
                 int numberDeletedDossier;
@@ -216,7 +224,7 @@ namespace _4._1.KadroviyUchot
                 }
                 else if (userInput == CommandReturnsToMenu)
                 {
-                    returnsToMenu = true;
+                    isCommandReturnsToMenu = true;
                 }
                 else
                 {
@@ -227,14 +235,15 @@ namespace _4._1.KadroviyUchot
 
         static void SearchByLastName(string[] surnames, string[] workingPositions, int dossiersNumbers)
         {
-            bool returnsToMenu = false;
-            string manual = "Введите запрашиваемую фамилию: ";
             const string CommandReturnsToMenu = "0";
+
+            bool isCommandReturnsToMenu = false;
+            string manual = "Введите запрашиваемую фамилию: ";
             string[] availableСommands = { $"{CommandReturnsToMenu}. Вернуться в меню" };
 
             OutputWelcomeBanner(manual, availableСommands);
 
-            while (returnsToMenu == false)
+            while (isCommandReturnsToMenu == false)
             {
                 string userInput;
 
@@ -267,9 +276,26 @@ namespace _4._1.KadroviyUchot
                 }
                 else
                 {
-                    returnsToMenu = true;
+                    isCommandReturnsToMenu = true;
                 }
             }
+        }
+
+        static void Exit(ref bool haveUserExit)
+        {
+            string programResponse = "-ЗАПРОС-";
+            int locationProgramResponseX = (Console.WindowWidth / 2) - (programResponse.Length / 2);
+            int locationProgramResponseY = Console.CursorTop + 1;
+            string valueProgramResponse = "запрос о выходе одобрен";
+            int locationValueProgramResponseX = (Console.WindowWidth / 2) - (valueProgramResponse.Length / 2) - 1;
+            int locationValueProgramResponseY;
+
+            haveUserExit = true;
+            Console.SetCursorPosition(locationProgramResponseX, locationProgramResponseY);
+            Console.WriteLine(programResponse);
+            locationValueProgramResponseY = Console.CursorTop;
+            Console.SetCursorPosition(locationValueProgramResponseX, locationValueProgramResponseY);
+            Console.WriteLine(valueProgramResponse);
         }
 
         static void DossierInitializing(string[] dossiers, string nameFile, Random random)
@@ -284,23 +310,6 @@ namespace _4._1.KadroviyUchot
                 stringNumber = random.Next(stringNumberMin, stringNumberMax);
                 dossiers[i] = fileStrings[stringNumber];
             }
-        }
-
-        static void Exit(ref bool userExit)
-        {
-            string programResponse = "-ЗАПРОС-";
-            int locationProgramResponseX = (Console.WindowWidth / 2) - (programResponse.Length / 2);
-            int locationProgramResponseY = Console.CursorTop + 1;
-            string valueProgramResponse = "запрос о выходе одобрен";
-            int locationValueProgramResponseX = (Console.WindowWidth / 2) - (valueProgramResponse.Length / 2) - 1;
-            int locationValueProgramResponseY;
-
-            userExit = true;
-            Console.SetCursorPosition(locationProgramResponseX, locationProgramResponseY);
-            Console.WriteLine(programResponse);
-            locationValueProgramResponseY = Console.CursorTop;
-            Console.SetCursorPosition(locationValueProgramResponseX, locationValueProgramResponseY);
-            Console.WriteLine(valueProgramResponse);
         }
 
         static void OutputWelcomeBanner(string manual, string[] availableСommands = null, string programResponse = null)
