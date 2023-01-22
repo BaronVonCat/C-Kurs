@@ -12,30 +12,39 @@ namespace _4._2.OtrisovkaBara
     {
         static void Main(string[] args)
         {
-            const int PercentMin = 0;
-            const int PercentMax = 100;
+            string nameHealthPointBar = "Здоровье";
 
-            string manual1 = "Введите номер строки на которой будет отрисована шкала: ";
-            string manual2 = "Введите процент заполненности шкалы: ";
-            int stringNumber;
-            int percent;
-
-            stringNumber = ToCheckStringForNumber(manual1);
-            percent = ToCheckStringForNumber(manual2, PercentMin, PercentMax);
-            ToRenderHealthPointBar(stringNumber, percent);
+            RenderPointBar(nameHealthPointBar);
         }
 
-        static void ToRenderHealthPointBar(int stringNumber, int percent)
+        static void RenderPointBar(string namePointBar)
+        {
+            const int PercentMin = 0;
+            const int PersentMax = 100;
+
+            string manualLineNumber = "Введите номер строки на которой будет отрисована шкала: ";
+            string manualPercent = "Введите процент заполненности шкалы: ";
+            int lineNumber = 0;
+            int percent;
+            int positionPointBarX = 0;
+            int positionPointBarY;
+
+            lineNumber = RequestNumber(manualLineNumber);
+            positionPointBarY = lineNumber - 1;
+            percent = RequestNumber(manualPercent, PercentMin, PersentMax);
+            Console.SetCursorPosition(positionPointBarX, positionPointBarY);
+            Console.Write(namePointBar + " ");
+            ProcessRenderingPointBar(percent);
+        }
+
+        static void ProcessRenderingPointBar(int percent)
         {
             const int PersentMax = 100;
 
-            int positionHealthPointBarX = 0;
-            int positionHealthPointBarY = stringNumber - 1;
-            double lenghtBar = 200;
-            double valueOnePercent = lenghtBar / PersentMax; 
+            double lenghtBar = 10;
+            double valueOnePercent = lenghtBar / PersentMax;
             double percentageToValue = percent * valueOnePercent;
 
-            Console.SetCursorPosition(positionHealthPointBarX, positionHealthPointBarY);
             Console.Write("|");
 
             for (int i = 0; i < percentageToValue; i++)
@@ -52,7 +61,7 @@ namespace _4._2.OtrisovkaBara
             Console.WriteLine("|");
         }
 
-        static int ToCheckStringForNumber(string manual, int numberMin = 1, int numberMax = int.MaxValue)
+        static int RequestNumber(string manual, int numberMin = 1, int numberMax = int.MaxValue)
         {
             string userInput;
             bool isStringNumber;
