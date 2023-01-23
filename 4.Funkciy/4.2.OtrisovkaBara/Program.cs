@@ -14,10 +14,10 @@ namespace _4._2.OtrisovkaBara
         {
             string nameHealthPointBar = "Здоровье";
 
-            RenderPointBar(nameHealthPointBar);
+            CreatingPointBar(nameHealthPointBar);
         }
 
-        static void RenderPointBar(string namePointBar)
+        static void CreatingPointBar(string namePointBar)
         {
             const int PercentMin = 0;
             const int PersentMax = 100;
@@ -29,15 +29,15 @@ namespace _4._2.OtrisovkaBara
             int positionPointBarX = 0;
             int positionPointBarY;
 
-            lineNumber = RequestNumber(manualLineNumber);
+            lineNumber = GetNumber(manualLineNumber);
             positionPointBarY = lineNumber - 1;
-            percent = RequestNumber(manualPercent, PercentMin, PersentMax);
+            percent = GetNumber(manualPercent, PercentMin, PersentMax);
             Console.SetCursorPosition(positionPointBarX, positionPointBarY);
             Console.Write(namePointBar + " ");
-            ProcessRenderingPointBar(percent);
+            DrawPointBar(percent);
         }
 
-        static void ProcessRenderingPointBar(int percent)
+        static void DrawPointBar(int percent)
         {
             const int PersentMax = 100;
 
@@ -61,7 +61,7 @@ namespace _4._2.OtrisovkaBara
             Console.WriteLine("|");
         }
 
-        static int RequestNumber(string manual, int numberMin = 1, int numberMax = int.MaxValue)
+        static int GetNumber(string manual, int numberMin = 1, int numberMax = int.MaxValue)
         {
             string userInput;
             bool isStringNumber;
