@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22D640B6-9DC0-45AC-AAAC-C5012B9844C0}</ProjectGuid>
+    <ProjectGuid>{C80B3CED-33AC-410A-8799-19085B3189D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_4._3.HochuChislo</RootNamespace>
     <AssemblyName>4.3.HochuChislo</AssemblyName>

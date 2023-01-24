@@ -19,8 +19,7 @@ namespace _4._3.HochuChislo
             while (hasNumberBeenReceived == false)
             {
                 userInput = Console.ReadLine();
-                Console.Clear();
-                hasNumberBeenReceived = int.TryParse(userInput, out userNumber);
+                userNumber = ConvertToNumber(ref hasNumberBeenReceived, userInput);
 
                 if (hasNumberBeenReceived == false)
                 {
@@ -30,6 +29,14 @@ namespace _4._3.HochuChislo
 
             Console.Clear();
             Console.WriteLine($"Ваше число - {userNumber}");
+        }
+
+        static int ConvertToNumber(ref bool hasNumberBeenReceived, string userInput)
+        {
+            int number;
+
+            hasNumberBeenReceived = int.TryParse(userInput, out number);
+            return number;
         }
     }
 }
