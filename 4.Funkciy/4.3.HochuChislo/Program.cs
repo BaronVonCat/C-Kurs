@@ -10,36 +10,26 @@ namespace _4._3.HochuChislo
     {
         static void Main(string[] args)
         {
-            int userNumber;
+            bool hasNumberBeenReceived = false;
+            string userInput;
+            int userNumber = 0;
 
-            userNumber = ToRequestNumber();
-        }
+            Console.Write("Хочу число: ");
 
-        static int ToRequestNumber()
-        {
-            bool hasCheckCompletedSuccessfully = false;
-            int number = int.MinValue;
-
-            while (hasCheckCompletedSuccessfully == false)
+            while (hasNumberBeenReceived == false)
             {
-                bool isNumber;
-                string userInput;
-
-                Console.WriteLine("Хочу число: ");
                 userInput = Console.ReadLine();
-                isNumber = int.TryParse(userInput, out number);
+                Console.Clear();
+                hasNumberBeenReceived = int.TryParse(userInput, out userNumber);
 
-                if (isNumber == true)
-                {
-                    hasCheckCompletedSuccessfully = true;
-                }
-                else
+                if (hasNumberBeenReceived == false)
                 {
                     Console.WriteLine("Кожаный, мне нужно число, а ты что ввёл?! Давай по новой.");
                 }
             }
 
-            return number;
+            Console.Clear();
+            Console.WriteLine($"Ваше число - {userNumber}");
         }
     }
 }
