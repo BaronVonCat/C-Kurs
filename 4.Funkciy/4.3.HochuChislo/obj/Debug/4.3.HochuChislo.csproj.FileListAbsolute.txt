@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.3.HochuChislo\bin\Debug\4.3.HochuChislo.exe.config
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.3.HochuChislo\bin\Debug\4.3.HochuChislo.exe
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.3.HochuChislo\bin\Debug\4.3.HochuChislo.pdb
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.3.HochuChislo\obj\Debug\4.3.HochuChislo.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.3.HochuChislo\obj\Debug\4.3.HochuChislo.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.3.HochuChislo\obj\Debug\4.3.HochuChislo.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.3.HochuChislo\obj\Debug\4.3.HochuChislo.exe
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.3.HochuChislo\obj\Debug\4.3.HochuChislo.pdb
