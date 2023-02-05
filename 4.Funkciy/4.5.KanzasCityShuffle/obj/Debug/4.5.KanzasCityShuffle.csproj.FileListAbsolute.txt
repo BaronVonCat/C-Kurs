@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.5.KanzasCityShuffle\bin\Debug\4.5.KanzasCityShuffle.exe.config
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.5.KanzasCityShuffle\bin\Debug\4.5.KanzasCityShuffle.exe
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.5.KanzasCityShuffle\bin\Debug\4.5.KanzasCityShuffle.pdb
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.5.KanzasCityShuffle\obj\Debug\4.5.KanzasCityShuffle.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.5.KanzasCityShuffle\obj\Debug\4.5.KanzasCityShuffle.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.5.KanzasCityShuffle\obj\Debug\4.5.KanzasCityShuffle.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.5.KanzasCityShuffle\obj\Debug\4.5.KanzasCityShuffle.exe
+D:\Obuchenie\CSharpKurs\4.Funkciy\4.5.KanzasCityShuffle\obj\Debug\4.5.KanzasCityShuffle.pdb
