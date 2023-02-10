@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\5.Collections\5.2.OcheredVMagazine\bin\Debug\5.2.OcheredVMagazine.exe.config
+D:\Obuchenie\CSharpKurs\5.Collections\5.2.OcheredVMagazine\bin\Debug\5.2.OcheredVMagazine.exe
+D:\Obuchenie\CSharpKurs\5.Collections\5.2.OcheredVMagazine\bin\Debug\5.2.OcheredVMagazine.pdb
+D:\Obuchenie\CSharpKurs\5.Collections\5.2.OcheredVMagazine\obj\Debug\5.2.OcheredVMagazine.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\5.Collections\5.2.OcheredVMagazine\obj\Debug\5.2.OcheredVMagazine.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\5.Collections\5.2.OcheredVMagazine\obj\Debug\5.2.OcheredVMagazine.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\5.Collections\5.2.OcheredVMagazine\obj\Debug\5.2.OcheredVMagazine.exe
+D:\Obuchenie\CSharpKurs\5.Collections\5.2.OcheredVMagazine\obj\Debug\5.2.OcheredVMagazine.pdb
