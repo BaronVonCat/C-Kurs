@@ -1,8 +1,0 @@
-D:\Obuchenie\CSharpKurs\5.Collections\5.1.TolkoviySlovare\obj\Debug\5.1.TolkoviySlovare.csproj.AssemblyReference.cache
-D:\Obuchenie\CSharpKurs\5.Collections\5.1.TolkoviySlovare\obj\Debug\5.1.TolkoviySlovare.csproj.SuggestedBindingRedirects.cache
-D:\Obuchenie\CSharpKurs\5.Collections\5.1.TolkoviySlovare\obj\Debug\5.1.TolkoviySlovare.csproj.CoreCompileInputs.cache
-D:\Obuchenie\CSharpKurs\5.Collections\5.1.TolkoviySlovare\bin\Debug\5.1.TolkoviySlovare.exe.config
-D:\Obuchenie\CSharpKurs\5.Collections\5.1.TolkoviySlovare\bin\Debug\5.1.TolkoviySlovare.exe
-D:\Obuchenie\CSharpKurs\5.Collections\5.1.TolkoviySlovare\bin\Debug\5.1.TolkoviySlovare.pdb
-D:\Obuchenie\CSharpKurs\5.Collections\5.1.TolkoviySlovare\obj\Debug\5.1.TolkoviySlovare.exe
-D:\Obuchenie\CSharpKurs\5.Collections\5.1.TolkoviySlovare\obj\Debug\5.1.TolkoviySlovare.pdb
