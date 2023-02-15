@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3.DinamicheskiyMassivPro", "5.3.DinamicheskiyMassivPro.csproj", "{18E23414-C89C-4E2D-A887-FAADF9B3C64B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18E23414-C89C-4E2D-A887-FAADF9B3C64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E23414-C89C-4E2D-A887-FAADF9B3C64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E23414-C89C-4E2D-A887-FAADF9B3C64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E23414-C89C-4E2D-A887-FAADF9B3C64B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83301BFB-5A9F-4C96-88B1-F0ACF2E7BB2C}
+	EndGlobalSection
+EndGlobal
