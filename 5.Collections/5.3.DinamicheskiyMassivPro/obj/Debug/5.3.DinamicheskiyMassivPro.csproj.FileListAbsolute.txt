@@ -1,8 +1,0 @@
-D:\Obuchenie\CSharpKurs\5.Collections\5.3.DinamicheskiyMassivPro\bin\Debug\5.3.DinamicheskiyMassivPro.exe.config
-D:\Obuchenie\CSharpKurs\5.Collections\5.3.DinamicheskiyMassivPro\bin\Debug\5.3.DinamicheskiyMassivPro.exe
-D:\Obuchenie\CSharpKurs\5.Collections\5.3.DinamicheskiyMassivPro\bin\Debug\5.3.DinamicheskiyMassivPro.pdb
-D:\Obuchenie\CSharpKurs\5.Collections\5.3.DinamicheskiyMassivPro\obj\Debug\5.3.DinamicheskiyMassivPro.csproj.AssemblyReference.cache
-D:\Obuchenie\CSharpKurs\5.Collections\5.3.DinamicheskiyMassivPro\obj\Debug\5.3.DinamicheskiyMassivPro.csproj.SuggestedBindingRedirects.cache
-D:\Obuchenie\CSharpKurs\5.Collections\5.3.DinamicheskiyMassivPro\obj\Debug\5.3.DinamicheskiyMassivPro.csproj.CoreCompileInputs.cache
-D:\Obuchenie\CSharpKurs\5.Collections\5.3.DinamicheskiyMassivPro\obj\Debug\5.3.DinamicheskiyMassivPro.exe
-D:\Obuchenie\CSharpKurs\5.Collections\5.3.DinamicheskiyMassivPro\obj\Debug\5.3.DinamicheskiyMassivPro.pdb
