@@ -1,0 +1,16 @@
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\bin\Debug\5.5.ObjedinenieVOdnuCollekciyu.exe.config
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\bin\Debug\5.5.ObjedinenieVOdnuCollekciyu.exe
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\bin\Debug\5.5.ObjedinenieVOdnuCollekciyu.pdb
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\obj\Debug\5.5.ObjedinenieVOdnuCollekciyu.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\obj\Debug\5.5.ObjedinenieVOdnuCollekciyu.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\obj\Debug\5.5.ObjedinenieVOdnuCollekciyu.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\obj\Debug\5.5.ObjedinenieVOdnuCollekciyu.exe
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\obj\Debug\5.5.ObjedinenieVOdnuCollekciyu.pdb
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\5.5.0.ObjedinenieVOdnuCollekciyu — копия\bin\Debug\5.5.ObjedinenieVOdnuCollekciyu.exe.config
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\5.5.0.ObjedinenieVOdnuCollekciyu — копия\bin\Debug\5.5.ObjedinenieVOdnuCollekciyu.exe
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\5.5.0.ObjedinenieVOdnuCollekciyu — копия\bin\Debug\5.5.ObjedinenieVOdnuCollekciyu.pdb
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\5.5.0.ObjedinenieVOdnuCollekciyu — копия\obj\Debug\5.5.ObjedinenieVOdnuCollekciyu.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\5.5.0.ObjedinenieVOdnuCollekciyu — копия\obj\Debug\5.5.ObjedinenieVOdnuCollekciyu.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\5.5.0.ObjedinenieVOdnuCollekciyu — копия\obj\Debug\5.5.ObjedinenieVOdnuCollekciyu.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\5.5.0.ObjedinenieVOdnuCollekciyu — копия\obj\Debug\5.5.ObjedinenieVOdnuCollekciyu.exe
+D:\Obuchenie\CSharpKurs\5.Collections\5.5.ObjedinenieVOdnuCollekciyu\5.5.0.ObjedinenieVOdnuCollekciyu — копия\obj\Debug\5.5.ObjedinenieVOdnuCollekciyu.pdb
