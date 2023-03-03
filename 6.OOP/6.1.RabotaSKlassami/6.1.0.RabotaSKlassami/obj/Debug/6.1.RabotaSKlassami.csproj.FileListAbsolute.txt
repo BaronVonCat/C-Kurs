@@ -1,0 +1,8 @@
+D:\Obuchenie\CSharpKurs\6.OOP\6.1.RabotaSKlassami\bin\Debug\6.1.RabotaSKlassami.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.1.RabotaSKlassami\bin\Debug\6.1.RabotaSKlassami.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.1.RabotaSKlassami\bin\Debug\6.1.RabotaSKlassami.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.1.RabotaSKlassami\obj\Debug\6.1.RabotaSKlassami.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.1.RabotaSKlassami\obj\Debug\6.1.RabotaSKlassami.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.1.RabotaSKlassami\obj\Debug\6.1.RabotaSKlassami.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.1.RabotaSKlassami\obj\Debug\6.1.RabotaSKlassami.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.1.RabotaSKlassami\obj\Debug\6.1.RabotaSKlassami.pdb
