@@ -1,8 +1,0 @@
-D:\Obuchenie\CSharpKurs\6.OOP\6.3.BazaDannihIgrokov\6.3.0.BazaDannihIgrokov\bin\Debug\6.3.BazaDannihIgrokov.exe.config
-D:\Obuchenie\CSharpKurs\6.OOP\6.3.BazaDannihIgrokov\6.3.0.BazaDannihIgrokov\bin\Debug\6.3.BazaDannihIgrokov.exe
-D:\Obuchenie\CSharpKurs\6.OOP\6.3.BazaDannihIgrokov\6.3.0.BazaDannihIgrokov\bin\Debug\6.3.BazaDannihIgrokov.pdb
-D:\Obuchenie\CSharpKurs\6.OOP\6.3.BazaDannihIgrokov\6.3.0.BazaDannihIgrokov\obj\Debug\6.3.BazaDannihIgrokov.csproj.AssemblyReference.cache
-D:\Obuchenie\CSharpKurs\6.OOP\6.3.BazaDannihIgrokov\6.3.0.BazaDannihIgrokov\obj\Debug\6.3.BazaDannihIgrokov.csproj.SuggestedBindingRedirects.cache
-D:\Obuchenie\CSharpKurs\6.OOP\6.3.BazaDannihIgrokov\6.3.0.BazaDannihIgrokov\obj\Debug\6.3.BazaDannihIgrokov.csproj.CoreCompileInputs.cache
-D:\Obuchenie\CSharpKurs\6.OOP\6.3.BazaDannihIgrokov\6.3.0.BazaDannihIgrokov\obj\Debug\6.3.BazaDannihIgrokov.exe
-D:\Obuchenie\CSharpKurs\6.OOP\6.3.BazaDannihIgrokov\6.3.0.BazaDannihIgrokov\obj\Debug\6.3.BazaDannihIgrokov.pdb
