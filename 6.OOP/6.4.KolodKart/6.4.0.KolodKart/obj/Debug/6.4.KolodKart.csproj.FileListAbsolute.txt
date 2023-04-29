@@ -1,0 +1,16 @@
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\bin\Debug\6.4.KolodKart.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\bin\Debug\6.4.KolodKart.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\bin\Debug\6.4.KolodKart.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\obj\Debug\6.4.KolodKart.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\obj\Debug\6.4.KolodKart.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\obj\Debug\6.4.KolodKart.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\obj\Debug\6.4.KolodKart.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\obj\Debug\6.4.KolodKart.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\6.4.0.KolodKart\bin\Debug\6.4.KolodKart.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\6.4.0.KolodKart\bin\Debug\6.4.KolodKart.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\6.4.0.KolodKart\bin\Debug\6.4.KolodKart.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\6.4.0.KolodKart\obj\Debug\6.4.KolodKart.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\6.4.0.KolodKart\obj\Debug\6.4.KolodKart.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\6.4.0.KolodKart\obj\Debug\6.4.KolodKart.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\6.4.0.KolodKart\obj\Debug\6.4.KolodKart.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.4.KolodKart\6.4.0.KolodKart\obj\Debug\6.4.KolodKart.pdb
