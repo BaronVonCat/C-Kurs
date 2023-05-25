@@ -1,0 +1,16 @@
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.HranilisheKnig\bin\Debug\6.5.HranilisheKnig.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.HranilisheKnig\bin\Debug\6.5.HranilisheKnig.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.HranilisheKnig\bin\Debug\6.5.HranilisheKnig.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.HranilisheKnig\obj\Debug\6.5.HranilisheKnig.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.HranilisheKnig\obj\Debug\6.5.HranilisheKnig.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.HranilisheKnig\obj\Debug\6.5.HranilisheKnig.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.HranilisheKnig\obj\Debug\6.5.HranilisheKnig.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.HranilisheKnig\obj\Debug\6.5.HranilisheKnig.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.0.HranilisheKnig\bin\Debug\6.5.HranilisheKnig.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.0.HranilisheKnig\bin\Debug\6.5.HranilisheKnig.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.0.HranilisheKnig\bin\Debug\6.5.HranilisheKnig.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.0.HranilisheKnig\obj\Debug\6.5.HranilisheKnig.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.0.HranilisheKnig\obj\Debug\6.5.HranilisheKnig.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.0.HranilisheKnig\obj\Debug\6.5.HranilisheKnig.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.0.HranilisheKnig\obj\Debug\6.5.HranilisheKnig.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.5.HranilisheKnig\6.5.0.HranilisheKnig\obj\Debug\6.5.HranilisheKnig.pdb
