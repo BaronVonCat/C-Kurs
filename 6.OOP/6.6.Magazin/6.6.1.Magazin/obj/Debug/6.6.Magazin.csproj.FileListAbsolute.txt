@@ -1,0 +1,16 @@
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\bin\Debug\6.6.Magazin.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\bin\Debug\6.6.Magazin.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\bin\Debug\6.6.Magazin.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\obj\Debug\6.6.Magazin.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\obj\Debug\6.6.Magazin.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\obj\Debug\6.6.Magazin.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\obj\Debug\6.6.Magazin.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\obj\Debug\6.6.Magazin.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\6.6.0.Magazin\obj\Debug\6.6.Magazin.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\6.6.0.Magazin\obj\Debug\6.6.Magazin.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\6.6.0.Magazin\obj\Debug\6.6.Magazin.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\6.6.0.Magazin\obj\Debug\6.6.Magazin.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\6.6.0.Magazin\obj\Debug\6.6.Magazin.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\6.6.0.Magazin\bin\Debug\6.6.Magazin.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\6.6.0.Magazin\bin\Debug\6.6.Magazin.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.6.Magazin\6.6.0.Magazin\bin\Debug\6.6.Magazin.pdb
