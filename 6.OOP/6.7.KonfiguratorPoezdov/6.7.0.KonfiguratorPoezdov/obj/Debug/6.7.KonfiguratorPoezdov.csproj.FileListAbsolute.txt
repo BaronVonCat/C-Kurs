@@ -1,0 +1,16 @@
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\bin\Debug\6.7.KonfiguratorPoezdov.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\bin\Debug\6.7.KonfiguratorPoezdov.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\bin\Debug\6.7.KonfiguratorPoezdov.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\obj\Debug\6.7.KonfiguratorPoezdov.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\obj\Debug\6.7.KonfiguratorPoezdov.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\obj\Debug\6.7.KonfiguratorPoezdov.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\obj\Debug\6.7.KonfiguratorPoezdov.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\obj\Debug\6.7.KonfiguratorPoezdov.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\6.7.0.KonfiguratorPoezdov\bin\Debug\6.7.KonfiguratorPoezdov.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\6.7.0.KonfiguratorPoezdov\bin\Debug\6.7.KonfiguratorPoezdov.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\6.7.0.KonfiguratorPoezdov\bin\Debug\6.7.KonfiguratorPoezdov.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\6.7.0.KonfiguratorPoezdov\obj\Debug\6.7.KonfiguratorPoezdov.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\6.7.0.KonfiguratorPoezdov\obj\Debug\6.7.KonfiguratorPoezdov.csproj.SuggestedBindingRedirects.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\6.7.0.KonfiguratorPoezdov\obj\Debug\6.7.KonfiguratorPoezdov.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\6.7.0.KonfiguratorPoezdov\obj\Debug\6.7.KonfiguratorPoezdov.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.7.KonfiguratorPoezdov\6.7.0.KonfiguratorPoezdov\obj\Debug\6.7.KonfiguratorPoezdov.pdb
