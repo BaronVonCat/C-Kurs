@@ -615,7 +615,16 @@ namespace _6._8.GladiatorskieBoi
 
         public virtual void TakeAttack(Attack attack)
         {
-            g
+            BoneDome boneDome;
+
+            if (TryFindBoneDome(out boneDome) == true)
+            {
+                boneDome.TakeDamage(attack.Damage);
+            }
+            else
+            {
+
+            }
         }
 
         public virtual void MakeAction(out Impact impact)
@@ -742,28 +751,26 @@ namespace _6._8.GladiatorskieBoi
             return isImpactsFound;
         }
 
-        protected bool TryFindDefenseImpact(out Effect impactDefense)
+        protected bool TryFindBoneDome(out BoneDome boneDome)
         {
-            bool isImpactFound = false;
+            bool isBoneDomeFound = false;
 
-            impactDefense = null;
+            boneDome = null;
 
             foreach (Effect impact in Effects)
             {
                 if (impact is BoneDome)
                 {
-                    BoneDome boneDome = (BoneDome)impact;
-
-                    if (boneDome.HasDestroyed == false)
+                    if (((BoneDome)impact).HasDestroyed == false)
                     {
-                        isImpactFound = true;
-                        impactDefense = impact;
+                        boneDome = (BoneDome)impact;
+                        isBoneDomeFound = true;
                         break;
                     }
                 }
             }
 
-            return isImpactFound;
+            return isBoneDomeFound;
         }
     }
 
@@ -832,13 +839,10 @@ namespace _6._8.GladiatorskieBoi
 
             if (ActionPoints >= actionPointsPrice && ManaCurrent >= manaPrice)
             {
-                ConnectionUndead connectionUndead;
-
                 ActionPoints -= actionPointsPrice;
                 ManaCurrent -= manaPrice;
                 summonedUndead = new SummonedUndead(CreateUndead());
-                connectionUndead = new ConnectionUndead(summonedUndead.GetUndead());
-                _connections.Add(connectionUndead);
+                _connections.AddRange(CreateConnectionsUndead(summonedUndead.GetUndead()));
             }
 
             return summonedUndead;
@@ -874,6 +878,19 @@ namespace _6._8.GladiatorskieBoi
             return skeleton;
         }
 
+        private List<Connection> CreateConnectionsUndead(List<Fighter> fighters)
+        {
+            List<Connection> connections = new List<Connection>();
+
+            foreach (Fighter fighter in fighters)
+            {
+                ConnectionUndead connectionUndead = new ConnectionUndead(fighter);
+                connections.Add(connectionUndead);
+            }
+
+            return connections;
+        }
+
         private SummonedBoneDome SummonBoneDome()
         {
             SummonedBoneDome summonedBoneDome = null;
@@ -882,39 +899,40 @@ namespace _6._8.GladiatorskieBoi
 
             if (ActionPoints >= actionPointsPrice && ManaCurrent >= manaPrice)
             {
-                ConnectionBoneDome connectionBoneDome = null;
-
                 ActionPoints -= actionPointsPrice;
                 ManaCurrent -= manaPrice;
                 summonedBoneDome = new SummonedBoneDome();
-                connectionBoneDome = new ConnectionBoneDome(summonedBoneDome.GetBoneDome());
-                _connections.Add(connectionBoneDome);
+                _connections.Add(new ConnectionBoneDome(summonedBoneDome.GetBoneDome()));
             }
 
             return summonedBoneDome;
         }
 
-        private void TryDeleteConnection()
+        private void DeleteBrokenConnections()
         {
-            List<Connection> connections;
-            bool isBrokenConnectionsFound = FindBrokenConnections(out connections);
+            List<Connection> connections = FindBrokenConnections();
 
-            if (isBrokenConnectionsFound == true)
+            foreach (Connection connection in connections)
             {
-
+                _connections.Remove(connection);
             }
         }
 
-        private bool FindBrokenConnections(out List<Connection> connections)
+        private List<Connection> FindBrokenConnections()
         {
-            bool isSearch = false;
+            List<Connection> connections = new List<Connection>();
 
-            foreach (Connection connection )
+            foreach (Connection connection in _connections)
             {
+                connection.Check();
 
+                if (connection.IsConnected == false)
+                {
+                    connections.Add(connection);
+                }
             }
 
-            return isSearch;
+            return connections;
         }
     }
 
@@ -1051,6 +1069,7 @@ namespace _6._8.GladiatorskieBoi
 
     class Skeleton : Fighter
     {
+
         public Skeleton(Stats stats) :
         base(stats, "Скелет") { }
 
@@ -1176,7 +1195,7 @@ namespace _6._8.GladiatorskieBoi
     {
         public BoneDome() : base("Костянной купол")
         {
-            Health = 50;
+            Health = 20;
             HasDestroyed = false;
         }
 
@@ -1340,6 +1359,8 @@ namespace _6._8.GladiatorskieBoi
 
         public bool IsConnected { get; protected set; }
 
+        public virtual void Check() { }
+
         public virtual void Deactivate()
         {
             IsConnected = false;
@@ -1348,20 +1369,24 @@ namespace _6._8.GladiatorskieBoi
 
     class ConnectionUndead : Connection
     {
-        private List<Fighter> _fighters;
+        private Fighter _fighter;
 
-        public ConnectionUndead(List<Fighter> fighters)
+        public ConnectionUndead(Fighter fighter)
         {
-            _fighters = fighters;
+            _fighter = fighter;
+        }
+
+        public override void Check()
+        {
+            if (_fighter.IsDead == true)
+            {
+                IsConnected = false;
+            }
         }
 
         public override void Deactivate()
         {
-            foreach (Fighter fighter in _fighters)
-            {
-                fighter.Die();
-            }
-
+            _fighter.Die();
             base.Deactivate();
         }
     }
@@ -1373,6 +1398,14 @@ namespace _6._8.GladiatorskieBoi
         public ConnectionBoneDome(BoneDome boneDome)
         {
             _boneDome = boneDome;
+        }
+
+        public override void Check()
+        {
+            if (_boneDome.HasDestroyed == true)
+            {
+                IsConnected = false;
+            }
         }
 
         public override void Deactivate()
