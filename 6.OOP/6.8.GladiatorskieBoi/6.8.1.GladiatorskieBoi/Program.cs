@@ -1,10 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using System.Security.Policy;
-using System.Xml.Linq;
-using static System.Collections.Specialized.BitVector32;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace _6._8.GladiatorskieBoi
 {
@@ -176,18 +171,23 @@ namespace _6._8.GladiatorskieBoi
         private Fighter CreateCandidate()
         {
             const int ClassNumberAssassin = 0;
-            const int ClassNumberKnight = 1;
+            const int ClassNumberFancer = 1;
+            const int ClassNumberFlagelant = 2;
 
             Fighter fighter = null;
 
-            switch (UserUtils.GenereteRandom(0, ClassNumberKnight + 1))
+            switch (UserUtils.GenereteRandom(0, ClassNumberFlagelant + 1))
             {
                 case ClassNumberAssassin:
                     fighter = CreateAssassin();
                     break;
 
-                case ClassNumberKnight:
-                    fighter = CreateKnight();
+                case ClassNumberFancer:
+                    fighter = CreateFancer();
+                    break;
+
+                case ClassNumberFlagelant:
+                    fighter = CreateFlagelant();
                     break;
             }
 
@@ -227,25 +227,36 @@ namespace _6._8.GladiatorskieBoi
             int dodge = UserUtils.GenereteRandom(dodgeMin, dodgeMax);
 
             stats = new Stats(fighter.Initiative, fighter.Health, fighter.Damage, fighter.ActionPoints);
-            assassin = new Assassin(stats, name/*, dodge*/);
+            assassin = new Assassin(stats, name, dodge);
             return assassin;
         }
 
-        private Knight CreateKnight()
+        private Fencer CreateFancer()
         {
-            Knight knight;
+            Fencer fancer;
             Stats stats;
             Fighter fighter = CreateBasisFighter();
-            string className = "Рыцарь";
+            string className = "Фехтовальщик";
             string name = $"{fighter.Name} {className}";
-            int armorMax = 50;
-            int armorMin = 1;
-            int armor = UserUtils.GenereteRandom(armorMin, armorMax);
 
             stats = new Stats(fighter.Initiative, fighter.Health, fighter.Damage, fighter.ActionPoints);
-            knight = new Knight(stats, name/*, armor*/);
+            fancer = new Fencer(stats, name);
 
-            return knight;
+            return fancer;
+        }
+
+        private Flagelant CreateFlagelant()
+        {
+            Flagelant flagelant;
+            Stats stats;
+            Fighter fighter = CreateBasisFighter();
+            string className = "Флагелянт";
+            string name = $"{fighter.Name} {className}";
+
+            stats = new Stats(fighter.Initiative, fighter.Health, fighter.Damage, fighter.ActionPoints);
+            flagelant = new Flagelant(stats, name);
+
+            return flagelant;
         }
 
         private string CreateName()
@@ -301,6 +312,37 @@ namespace _6._8.GladiatorskieBoi
 
             Console.WriteLine($"\n{_fighters[0].Name} одержал победу!!!");
             Console.ReadKey();
+        }
+
+        private Queue<Fighter> CreateQueueMovement()
+        {
+            Queue<Fighter> queueMovementFighters = new Queue<Fighter>();
+            Fighter transmittedFighter = null;
+
+            for (int i = 0; i < _fighters.Count; i++)
+            {
+                for (int j = 0; j < _fighters.Count; j++)
+                {
+                    if (queueMovementFighters.Contains(_fighters[j]) == false)
+                    {
+                        transmittedFighter = _fighters[j];
+                        break;
+                    }
+                }
+
+                for (int j = 0; j < _fighters.Count; j++)
+                {
+                    if (_fighters[j].Initiative > transmittedFighter.Initiative
+                        && queueMovementFighters.Contains(_fighters[j]) == false)
+                    {
+                        transmittedFighter = _fighters[j];
+                    }
+                }
+
+                queueMovementFighters.Enqueue(transmittedFighter);
+            }
+
+            return queueMovementFighters;
         }
 
         private void TryMakeMove(Fighter currentFighter)
@@ -380,37 +422,6 @@ namespace _6._8.GladiatorskieBoi
                 fighter.ShowInfo();
             }
         }
-
-        private Queue<Fighter> CreateQueueMovement()
-        {
-            Queue<Fighter> queueMovementFighters = new Queue<Fighter>();
-            Fighter transmittedFighter = null;
-
-            for (int i = 0; i < _fighters.Count; i++)
-            {
-                for (int j = 0; j < _fighters.Count; j++)
-                {
-                    if (queueMovementFighters.Contains(_fighters[j]) == false)
-                    {
-                        transmittedFighter = _fighters[j];
-                        break;
-                    }
-                }
-
-                for (int j = 0; j < _fighters.Count; j++)
-                {
-                    if (_fighters[j].Initiative > transmittedFighter.Initiative
-                        && queueMovementFighters.Contains(_fighters[j]) == false)
-                    {
-                        transmittedFighter = _fighters[j];
-                    }
-                }
-
-                queueMovementFighters.Enqueue(transmittedFighter);
-            }
-
-            return queueMovementFighters;
-        }
     }
 
     class Fighter
@@ -472,13 +483,6 @@ namespace _6._8.GladiatorskieBoi
             TeamNumber = teamNumber;
         }
 
-        public virtual void Die()
-        {
-            Console.WriteLine($"{Name} погиб!");
-            Health = 0;
-            IsDead = true;
-        }
-
         public virtual void MakeAction(out int damage)
         {
             const int ActionNumberAttack = 0;
@@ -510,6 +514,13 @@ namespace _6._8.GladiatorskieBoi
             {
                 Die();
             }
+        }
+
+        public virtual void Die()
+        {
+            Console.WriteLine($"{Name} погиб!");
+            Health = 0;
+            IsDead = true;
         }
 
         public void RestoreActionPoints()
@@ -547,15 +558,15 @@ namespace _6._8.GladiatorskieBoi
 
     class Assassin : Fighter
     {
-        /* private int Dodge;*/
+        private int Dodge;
 
-        public Assassin(Stats stats, string name/*, int dodge*/) :
+        public Assassin(Stats stats, string name, int dodge) :
         base(stats, name) 
         {
-           /* Dodge = dodge; */
+            Dodge = dodge;
         }
 
-        /*public override void ShowStats()
+        public override void ShowStats()
         {
             base.ShowStats();
             Console.WriteLine($"Уклонение: {Dodge}");
@@ -569,17 +580,19 @@ namespace _6._8.GladiatorskieBoi
             {
                 int damageMultiplier = 3;
 
+                Console.WriteLine($"{Name} наносит критический удар");
                 damage = Damage * damageMultiplier;
             }
             else
             {
+                Console.WriteLine($"{Name} задел ударом");
                 damage = Damage;
             }
 
             return damage;
         }
 
-        protected override void TakeDamage(int damage)
+        public override void TakeDamage(int damage)
         {
             if (TryDodge() == false)
             {
@@ -595,64 +608,89 @@ namespace _6._8.GladiatorskieBoi
 
             if (Dodge >= UserUtils.GenereteRandom(dodgeMin, dodgeMax))
             {
-                Console.WriteLine($"{Name} уклонился");
+                Console.WriteLine($"    {Name} уклонился");
                 hasManageDodge = true;
             }
 
             return hasManageDodge;
-        }*/
+        }
     }
 
-    class Knight : Fighter
+    class Fencer : Fighter
     {
-        public Knight(Stats stats, string name/*, int armor */) :
+        private bool _isPerformsSkill;
+
+        public Fencer(Stats stats, string name) :
         base(stats, name) 
         {
-            /*ArmorBase = armor;
-            ArmorCurrent = armor;*/
-        }
-        
-        /*public int ArmorBase { get; private set; }
-        public int ArmorCurrent { get; private set; }
-
-        public override void ShowStats()
-        {
-            base.ShowStats();
-            Console.WriteLine($"Броня: {ArmorCurrent}");
+            _isPerformsSkill = false;
         }
 
-        protected override void TakeDamage(int damage)
+        public override void MakeAction(out int damage)
         {
-            if (ArmorCurrent > 0)
+            if (_isPerformsSkill == true)
             {
-                if (ArmorCurrent > damage)
-                {
-                    Console.WriteLine($"-урон по броне - {damage}");
-                    ArmorCurrent -= damage;
-                }
-                else
-                {
-                    int residualDamage = damage - ArmorCurrent;
-
-                    ArmorCurrent = 0;
-                    Console.WriteLine($"-броня разрушена!");
-                }
+                damage = SpecialAttack();
             }
             else
             {
-                base.TakeDamage(damage);
+                base.MakeAction(out damage);
             }
         }
 
         protected override int MakeSpecialSkill()
         {
-            
-        }*/
+            Console.WriteLine($"{Name} начинает серию ударов");
+            _isPerformsSkill = true;
+            ActionPoints++;
+
+            return SpecialAttack();
+        }
+
+        private int SpecialAttack()
+        {
+            Console.WriteLine($"{Name} выполняет комбо атаку");
+            _isPerformsSkill = UserUtils.GenereteRandomBool();
+
+            if (_isPerformsSkill == false)
+            {
+                ActionPoints--;
+                Console.WriteLine($"cерия прервана");
+            }
+
+            return Damage;
+        }
     }
 
-    class Monk : Fighter
+    class Flagelant : Fighter
     {
-        public Monk(Stats stats, string name) : base(stats, name) { }
+        private int _acceptedAttacks;
+
+        public Flagelant(Stats stats, string name) : base(stats, name) 
+        {
+            _acceptedAttacks = 0;
+        }
+
+        public override void TakeDamage(int damage)
+        {
+            _acceptedAttacks++;
+            base.TakeDamage(damage);
+        }
+
+        protected override int MakeSpecialSkill()
+        {
+            int healthPointRegen = 1;
+
+            Console.WriteLine($"{Name} восстановил утраченное здоровье");
+            Health += healthPointRegen * _acceptedAttacks;
+
+            if (Health > StatsBase.Health)
+            {
+                Health = StatsBase.Health;
+            }
+
+            return 0;
+        }
     }
 
     class Stats
@@ -668,11 +706,6 @@ namespace _6._8.GladiatorskieBoi
             Health = health;
             Damage = damage;
             ActionPoints = actionPoints;
-        }
-
-        public Stats GetCopy() 
-        { 
-            return new Stats(Initiative, Health, Damage, ActionPoints); 
         }
     }
 
