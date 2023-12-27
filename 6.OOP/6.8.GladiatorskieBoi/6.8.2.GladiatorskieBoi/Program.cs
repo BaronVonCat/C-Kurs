@@ -15,8 +15,8 @@ namespace _6._8.GladiatorskieBoi
 
     class Arena
     {
-        List<Fighter> _fighters;
-        List<Fighter> _fightersCandidates;
+        private List<Fighter> _fighters;
+        private List<Fighter> _fightersCandidates;
 
         public Arena()
         {
@@ -131,7 +131,7 @@ namespace _6._8.GladiatorskieBoi
         {
             if (_fighters.Count > 1)
             {
-                Fight fight;
+                Battle fight;
                 int teamNumber = 0;
 
                 foreach (Fighter fighter in _fighters)
@@ -140,8 +140,8 @@ namespace _6._8.GladiatorskieBoi
                     fighter.SetTeamNumber(teamNumber); 
                 }
 
-                fight = new Fight(_fighters);
-                fight.Start();
+                fight = new Battle(_fighters);
+                fight.Conduct();
                 _fighters.Clear();
                 _fightersCandidates = CreateCandidates();
             }
@@ -181,16 +181,16 @@ namespace _6._8.GladiatorskieBoi
         }
     }
 
-    class Fight
+    class Battle
     {
         private List<Fighter> _fighters;
 
-        public Fight(List<Fighter> fighters) 
+        public Battle(List<Fighter> fighters) 
         {
             _fighters = fighters;
         }
 
-        public void Start()
+        public void Conduct()
         {
             int turn = 0;
 
@@ -341,7 +341,7 @@ namespace _6._8.GladiatorskieBoi
         public int ActionPoints { get; protected set; }
         public int TeamNumber { get; protected set; }
 
-        public virtual void ShowFullName()
+        public void ShowFullName()
         {
             if (Type != null)
             {
@@ -371,7 +371,7 @@ namespace _6._8.GladiatorskieBoi
             Console.WriteLine($"Урон: {Damage}");
         }
 
-        public virtual void ShowInfo() 
+        public void ShowInfo() 
         {
             ShowFullName();
             Console.WriteLine();
@@ -416,7 +416,7 @@ namespace _6._8.GladiatorskieBoi
             }
         }
 
-        public virtual void Die()
+        public  void Die()
         {
             Console.Write("    ");
             ShowFullName();
@@ -459,13 +459,13 @@ namespace _6._8.GladiatorskieBoi
 
     class Assassin : Fighter
     {
-        private int Dodge;
-
         public Assassin() : base() 
         {
             Type = "Ассасин";
             Dodge = GenerateDodge();
         }
+
+        public int Dodge { get; private set; }
 
         public override void ShowStats()
         {
@@ -537,7 +537,7 @@ namespace _6._8.GladiatorskieBoi
         {
             if (_isPerformsSkill == true)
             {
-                SpecialAttack(enemy);
+                MakeComboAttack(enemy);
             }
             else
             {
@@ -551,10 +551,10 @@ namespace _6._8.GladiatorskieBoi
             Console.WriteLine($" начинает серию ударов");
             _isPerformsSkill = true;
             ActionPoints++;
-            SpecialAttack(enemy);
+            MakeComboAttack(enemy);
         }
 
-        private void SpecialAttack(Fighter enemy)
+        private void MakeComboAttack(Fighter enemy)
         {
             ShowFullName();
             Console.WriteLine($" выполняет комбо атаку");
