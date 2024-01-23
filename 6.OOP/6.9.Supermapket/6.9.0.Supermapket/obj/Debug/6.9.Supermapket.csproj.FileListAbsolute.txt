@@ -1,0 +1,14 @@
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\bin\Debug\6.9.Supermapket.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\bin\Debug\6.9.Supermapket.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\bin\Debug\6.9.Supermapket.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\obj\Debug\6.9.Supermapket.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\obj\Debug\6.9.Supermapket.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\obj\Debug\6.9.Supermapket.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\obj\Debug\6.9.Supermapket.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\6.9.0.Supermapket\bin\Debug\6.9.Supermapket.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\6.9.0.Supermapket\bin\Debug\6.9.Supermapket.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\6.9.0.Supermapket\bin\Debug\6.9.Supermapket.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\6.9.0.Supermapket\obj\Debug\6.9.Supermapket.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\6.9.0.Supermapket\obj\Debug\6.9.Supermapket.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\6.9.0.Supermapket\obj\Debug\6.9.Supermapket.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.9.Supermapket\6.9.0.Supermapket\obj\Debug\6.9.Supermapket.pdb
