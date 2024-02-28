@@ -115,36 +115,7 @@ namespace _6._10.War
             }
         }
 
-        private Queue<Fighter> CreateQueueMovement()
-        {
-            Queue<Fighter> queueMovementFighters = new Queue<Fighter>();
-            Fighter transmittedFighter = null;
-
-            for (int i = 0; i < _fighters.Count; i++)
-            {
-                for (int j = 0; j < _fighters.Count; j++)
-                {
-                    if (queueMovementFighters.Contains(_fighters[j]) == false)
-                    {
-                        transmittedFighter = _fighters[j];
-                        break;
-                    }
-                }
-
-                for (int j = 0; j < _fighters.Count; j++)
-                {
-                    if (_fighters[j].Initiative > transmittedFighter.Initiative
-                        && queueMovementFighters.Contains(_fighters[j]) == false)
-                    {
-                        transmittedFighter = _fighters[j];
-                    }
-                }
-
-                queueMovementFighters.Enqueue(transmittedFighter);
-            }
-
-            return queueMovementFighters;
-        }
+        
 
         private void TryMakeMove(Fighter fighter)
         {
@@ -329,7 +300,7 @@ namespace _6._10.War
 
         public Squad(List<Fighter> fighters, string nameFaction)
         {
-            _fighters = fighters;   
+            _fighters = fighters;
             Namefaction = nameFaction;
         }
 
@@ -377,7 +348,7 @@ namespace _6._10.War
         public Fighter(string nameFraction)
         {
             StatsBase = new Stats();
-            Name = DataBase.GetRandomName();
+            Name = Database.GetRandomName();
             Type = null;
             NameFaction = nameFraction;
             Initiative = StatsBase.Initiative;
@@ -693,21 +664,9 @@ namespace _6._10.War
         }
     }
 
-    class DataBase
+    class Database
     {
-        private static List<string> s_names;
-
-        static DataBase()
-        {
-            s_names = CreateNames();
-        }
-
         public static string GetRandomName()
-        {
-            return s_names[UserUtils.GenereteRandom(0, s_names.Count)];
-        }
-
-        private static List<string> CreateNames()
         {
             List<string> names = new List<string>
             {
@@ -720,7 +679,7 @@ namespace _6._10.War
                 "Маар"
             };
 
-            return names;
+            return names[UserUtils.GenereteRandom(0, names.Count)];
         }
     }
 
