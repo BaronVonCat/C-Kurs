@@ -1,0 +1,14 @@
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\bin\Debug\6.11.Aquarium.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\bin\Debug\6.11.Aquarium.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\bin\Debug\6.11.Aquarium.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\obj\Debug\6.11.Aquarium.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\obj\Debug\6.11.Aquarium.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\obj\Debug\6.11.Aquarium.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\obj\Debug\6.11.Aquarium.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\6.11.0.Aquarium\bin\Debug\6.11.Aquarium.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\6.11.0.Aquarium\bin\Debug\6.11.Aquarium.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\6.11.0.Aquarium\bin\Debug\6.11.Aquarium.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\6.11.0.Aquarium\obj\Debug\6.11.Aquarium.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\6.11.0.Aquarium\obj\Debug\6.11.Aquarium.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\6.11.0.Aquarium\obj\Debug\6.11.Aquarium.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.11.Aquarium\6.11.0.Aquarium\obj\Debug\6.11.Aquarium.pdb
