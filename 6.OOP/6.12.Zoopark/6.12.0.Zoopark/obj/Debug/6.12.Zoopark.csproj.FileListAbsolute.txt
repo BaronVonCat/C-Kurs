@@ -1,0 +1,14 @@
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\bin\Debug\6.12.Zoopark.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\bin\Debug\6.12.Zoopark.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\bin\Debug\6.12.Zoopark.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\obj\Debug\6.12.Zoopark.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\obj\Debug\6.12.Zoopark.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\obj\Debug\6.12.Zoopark.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\obj\Debug\6.12.Zoopark.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\6.12.0.Zoopark\bin\Debug\6.12.Zoopark.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\6.12.0.Zoopark\bin\Debug\6.12.Zoopark.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\6.12.0.Zoopark\bin\Debug\6.12.Zoopark.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\6.12.0.Zoopark\obj\Debug\6.12.Zoopark.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\6.12.0.Zoopark\obj\Debug\6.12.Zoopark.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\6.12.0.Zoopark\obj\Debug\6.12.Zoopark.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.12.Zoopark\6.12.0.Zoopark\obj\Debug\6.12.Zoopark.pdb
