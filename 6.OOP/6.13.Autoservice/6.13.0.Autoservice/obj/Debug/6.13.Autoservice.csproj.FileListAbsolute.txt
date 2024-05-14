@@ -1,0 +1,14 @@
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\bin\Debug\6.13.Autoservice.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\bin\Debug\6.13.Autoservice.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\bin\Debug\6.13.Autoservice.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\obj\Debug\6.13.Autoservice.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\obj\Debug\6.13.Autoservice.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\obj\Debug\6.13.Autoservice.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\obj\Debug\6.13.Autoservice.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\6.13.0.Autoservice\obj\Debug\6.13.Autoservice.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\6.13.0.Autoservice\obj\Debug\6.13.Autoservice.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\6.13.0.Autoservice\obj\Debug\6.13.Autoservice.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\6.13.0.Autoservice\obj\Debug\6.13.Autoservice.pdb
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\6.13.0.Autoservice\bin\Debug\6.13.Autoservice.exe.config
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\6.13.0.Autoservice\bin\Debug\6.13.Autoservice.exe
+D:\Obuchenie\CSharpKurs\6.OOP\6.13.Autoservice\6.13.0.Autoservice\bin\Debug\6.13.Autoservice.pdb
