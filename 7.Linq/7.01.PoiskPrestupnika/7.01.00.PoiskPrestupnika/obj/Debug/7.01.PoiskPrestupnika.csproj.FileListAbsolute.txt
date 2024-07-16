@@ -1,0 +1,14 @@
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\bin\Debug\7.01.PoiskPrestupnika.exe.config
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\bin\Debug\7.01.PoiskPrestupnika.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\bin\Debug\7.01.PoiskPrestupnika.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\obj\Debug\7.01.PoiskPrestupnika.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\obj\Debug\7.01.PoiskPrestupnika.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\obj\Debug\7.01.PoiskPrestupnika.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\obj\Debug\7.01.PoiskPrestupnika.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\7.01.00.PoiskPrestupnika\bin\Debug\7.01.PoiskPrestupnika.exe.config
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\7.01.00.PoiskPrestupnika\bin\Debug\7.01.PoiskPrestupnika.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\7.01.00.PoiskPrestupnika\bin\Debug\7.01.PoiskPrestupnika.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\7.01.00.PoiskPrestupnika\obj\Debug\7.01.PoiskPrestupnika.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\7.01.00.PoiskPrestupnika\obj\Debug\7.01.PoiskPrestupnika.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\7.01.00.PoiskPrestupnika\obj\Debug\7.01.PoiskPrestupnika.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.01.PoiskPrestupnika\7.01.00.PoiskPrestupnika\obj\Debug\7.01.PoiskPrestupnika.pdb
