@@ -1,0 +1,14 @@
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\bin\Debug\7.02.Amnistia.exe.config
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\bin\Debug\7.02.Amnistia.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\bin\Debug\7.02.Amnistia.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\obj\Debug\7.02.Amnistia.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\obj\Debug\7.02.Amnistia.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\obj\Debug\7.02.Amnistia.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\obj\Debug\7.02.Amnistia.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\7.02.00.Amnistia\bin\Debug\7.02.Amnistia.exe.config
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\7.02.00.Amnistia\bin\Debug\7.02.Amnistia.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\7.02.00.Amnistia\bin\Debug\7.02.Amnistia.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\7.02.00.Amnistia\obj\Debug\7.02.Amnistia.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\7.02.00.Amnistia\obj\Debug\7.02.Amnistia.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\7.02.00.Amnistia\obj\Debug\7.02.Amnistia.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.02.Amnistia\7.02.00.Amnistia\obj\Debug\7.02.Amnistia.pdb
