@@ -1,0 +1,14 @@
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\bin\Debug\7.03.AnarhiaVBolnice.exe.config
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\bin\Debug\7.03.AnarhiaVBolnice.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\bin\Debug\7.03.AnarhiaVBolnice.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\obj\Debug\7.03.AnarhiaVBolnice.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\obj\Debug\7.03.AnarhiaVBolnice.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\obj\Debug\7.03.AnarhiaVBolnice.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\obj\Debug\7.03.AnarhiaVBolnice.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\7.03.00.AnarhiaVBolnice\bin\Debug\7.03.AnarhiaVBolnice.exe.config
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\7.03.00.AnarhiaVBolnice\bin\Debug\7.03.AnarhiaVBolnice.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\7.03.00.AnarhiaVBolnice\bin\Debug\7.03.AnarhiaVBolnice.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\7.03.00.AnarhiaVBolnice\obj\Debug\7.03.AnarhiaVBolnice.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\7.03.00.AnarhiaVBolnice\obj\Debug\7.03.AnarhiaVBolnice.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\7.03.00.AnarhiaVBolnice\obj\Debug\7.03.AnarhiaVBolnice.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.03.AnarhiaVBolnice\7.03.00.AnarhiaVBolnice\obj\Debug\7.03.AnarhiaVBolnice.pdb
