@@ -1,0 +1,14 @@
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\bin\Debug\7.05.OpredelenieProsrochky.exe.config
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\bin\Debug\7.05.OpredelenieProsrochky.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\bin\Debug\7.05.OpredelenieProsrochky.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\obj\Debug\7.05.OpredelenieProsrochky.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\obj\Debug\7.05.OpredelenieProsrochky.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\obj\Debug\7.05.OpredelenieProsrochky.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\obj\Debug\7.05.OpredelenieProsrochky.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\7.05.00.OpredelenieProsrochky\bin\Debug\7.05.OpredelenieProsrochky.exe.config
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\7.05.00.OpredelenieProsrochky\bin\Debug\7.05.OpredelenieProsrochky.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\7.05.00.OpredelenieProsrochky\bin\Debug\7.05.OpredelenieProsrochky.pdb
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\7.05.00.OpredelenieProsrochky\obj\Debug\7.05.OpredelenieProsrochky.csproj.AssemblyReference.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\7.05.00.OpredelenieProsrochky\obj\Debug\7.05.OpredelenieProsrochky.csproj.CoreCompileInputs.cache
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\7.05.00.OpredelenieProsrochky\obj\Debug\7.05.OpredelenieProsrochky.exe
+D:\Obuchenie\CSharpKurs\7.Linq\7.05.OpredelenieProsrochky\7.05.00.OpredelenieProsrochky\obj\Debug\7.05.OpredelenieProsrochky.pdb
