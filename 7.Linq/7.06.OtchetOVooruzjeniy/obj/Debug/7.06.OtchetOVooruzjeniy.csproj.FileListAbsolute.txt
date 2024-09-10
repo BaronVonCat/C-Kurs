@@ -1,7 +1,0 @@
-D:\Obuchenie\CSharpKurs\7.Linq\7.06.OtchetOVooruzjeniy\bin\Debug\7.06.OtchetOVooruzjeniy.exe.config
-D:\Obuchenie\CSharpKurs\7.Linq\7.06.OtchetOVooruzjeniy\bin\Debug\7.06.OtchetOVooruzjeniy.exe
-D:\Obuchenie\CSharpKurs\7.Linq\7.06.OtchetOVooruzjeniy\bin\Debug\7.06.OtchetOVooruzjeniy.pdb
-D:\Obuchenie\CSharpKurs\7.Linq\7.06.OtchetOVooruzjeniy\obj\Debug\7.06.OtchetOVooruzjeniy.csproj.AssemblyReference.cache
-D:\Obuchenie\CSharpKurs\7.Linq\7.06.OtchetOVooruzjeniy\obj\Debug\7.06.OtchetOVooruzjeniy.csproj.CoreCompileInputs.cache
-D:\Obuchenie\CSharpKurs\7.Linq\7.06.OtchetOVooruzjeniy\obj\Debug\7.06.OtchetOVooruzjeniy.exe
-D:\Obuchenie\CSharpKurs\7.Linq\7.06.OtchetOVooruzjeniy\obj\Debug\7.06.OtchetOVooruzjeniy.pdb
